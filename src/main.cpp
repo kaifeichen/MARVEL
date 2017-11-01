@@ -1,5 +1,6 @@
 #include "label/Labeler.h"
 #include "measure/Measure.h"
+#include "evaluation/Evaluation.h"
 #include "run/Run.h"
 #include "vis/Visualizer.h"
 #include <boost/program_options.hpp>
@@ -26,6 +27,9 @@ int main(int argc, char *argv[]) {
     } else if (std::string(argv[1]) == "measure") {
       Measure measure;
       return measure.run(argc - 1, argv + 1);
+    } else if (std::string(argv[1]) == "evaluate") {
+      Evaluation evaluation;
+      return evaluation.run(argc-1, argv + 1);
     }
   }
 
@@ -82,5 +86,7 @@ static void printUsage(const po::options_description &desc) {
             << "commands:" << std::endl
             << "  run        run snaplink" << std::endl
             << "  vis        visualize a datobase" << std::endl
+            << "  measure    measure 2 points distance in a database" << std::endl
+            << "  evaluate   evaluate performance from a image with red and blue dot on it" << std::endl
             << "  label      label a database" << std::endl;
 }
