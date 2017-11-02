@@ -57,6 +57,7 @@ Apriltag::aprilDetect(const cv::Mat &im, const CameraModel &camera) {
   detector.process(im, opticalCenter, detections);
   cv::Mat rVec, t;
   for (unsigned int i = 0; i < detections.size(); i++) {
+    std::cout<<"x is "<< detections[i].p[0].x << "   y is "<< detections[i].p[0].y << std::endl;
     CameraUtil::homographyToPoseCV(camera.fx(), camera.fy(), _tagSize,
                                    detections[i].homography, rVec, t);
     cv::Mat r, dump;
