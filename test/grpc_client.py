@@ -42,7 +42,7 @@ def test_file(filename, stub):
     print filename, 'width:', width, 'height:', height
     
     t0 = time.time()
-    request = GrpcService_pb2.LocalizationRequest(image=jpg.tostring(), orientation = 1)
+    request = GrpcService_pb2.LocalizationRequest(blurness = [99999], request_id = [1], image=[jpg.tostring()], orientation = [1])
     request.camera.fx=562.25
     request.camera.fy=562.25
     request.camera.cx=240

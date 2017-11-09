@@ -67,21 +67,43 @@ grpc::Status GrpcFrontEnd::localize(
 
   snaplink_grpc::LocalizationRequest request;
   while (stream->Read(&request)) {
+      std::cout<<"step 0\n";
     snaplink_grpc::LocalizationResponse response;
-    response.set_request_id(request.request_id());
+    std::cout<<"step 1\n";
+    std::cout<<"request id size is" << request.request_id_size() << std::endl;
+    if(request.request_id_size() == 0) {
+      continue; 
+    }
+    response.set_request_id(request.request_id(0));
+    std::cout<<"step 2\n";
     response.set_success(false);
+    std::cout<<"step 3\n";
+    int numOfImages = request.image_size();
+    std::cout<<"step 4\n";
+    for(int i = 0; i < numOfImages; i++) {
+      std::vector<uchar> data_i(request.image(i).begin(), request.image(i).end());
+      std::cout<<"step 5\n";
+      cv::Mat image_i = imdecode(cv::Mat(data_i, false), cv::IMREAD_GRAYSCALE);
+      std::cout<<"step 6\n";
+      cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
+    }
+    std::cout<<"step 7\n";
+    std::vector<uchar> data(request.image(0).begin(), request.image(0).end());
 
-    std::vector<uchar> data(request.image().begin(), request.image().end());
-
+    std::cout<<"step 8\n";
     bool copyData = false;
     cv::Mat image = imdecode(cv::Mat(data, copyData), cv::IMREAD_GRAYSCALE);
+    std::cout<<"step 9\n";
     if (image.empty() || image.type() != CV_8U || image.channels() != 1) {
+        std::cout<<"step 10\n";
       stream->Write(response);
       continue;
     }
+    std::cout<<"step 11\n";
 
     // TODO add orientation into JPEG, so we don't need to rotate ourselves
-    image = rotateImage(image, request.orientation());
+    image = rotateImage(image, request.orientation(0));
+    std::cout<<"step 0\n";
     imwrite("imageRotated.jpg", image);
     int width = image.cols;
     int height = image.rows;
@@ -91,7 +113,7 @@ grpc::Status GrpcFrontEnd::localize(
     float fy = request.camera().fy();
     float cx = request.camera().cx();
     float cy = request.camera().cy();
-    updateIntrinsics(width, height, request.orientation(), cx, cy);
+    updateIntrinsics(width, height, request.orientation(0), cx, cy);
     std::cout << "Width = " << width << ", Height = " << height
               << " Cx = " << cx << " Cy = " << cy << std::endl;
     CameraModel camera("", fx, fy, cx, cy, cv::Size(width, height));
