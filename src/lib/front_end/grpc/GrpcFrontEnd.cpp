@@ -67,43 +67,57 @@ grpc::Status GrpcFrontEnd::localize(
 
   snaplink_grpc::LocalizationRequest request;
   while (stream->Read(&request)) {
-      std::cout<<"step 0\n";
     snaplink_grpc::LocalizationResponse response;
-    std::cout<<"step 1\n";
-    std::cout<<"request id size is" << request.request_id_size() << std::endl;
     if(request.request_id_size() == 0) {
       continue; 
     }
     response.set_request_id(request.request_id(0));
-    std::cout<<"step 2\n";
     response.set_success(false);
-    std::cout<<"step 3\n";
     int numOfImages = request.image_size();
-    std::cout<<"step 4\n";
+    std::vector<cv::Mat> images;
+    std::vector<cv::Mat> poses;
+    std::cout<<"step 1\n";
     for(int i = 0; i < numOfImages; i++) {
+    std::cout<<"step 2\n";
       std::vector<uchar> data_i(request.image(i).begin(), request.image(i).end());
-      std::cout<<"step 5\n";
+    std::cout<<"step 3\n";
       cv::Mat image_i = imdecode(cv::Mat(data_i, false), cv::IMREAD_GRAYSCALE);
-      std::cout<<"step 6\n";
-      cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
-    }
+    std::cout<<"step 4\n";
+      images.push_back(image_i);
+    std::cout<<"step 5\n";
+      cv::Mat pose_i = cv::Mat::eye(3, 4, CV_64FC1); 
+    std::cout<<"step 6\n";
+      pose_i.at<double>(0, 0) = request.poses(i).data(0);
+      pose_i.at<double>(0, 1) = request.poses(i).data(1);
+      pose_i.at<double>(0, 2) = request.poses(i).data(2);
+      pose_i.at<double>(0, 3) = request.poses(i).data(3);
+      pose_i.at<double>(1, 0) = request.poses(i).data(4);
+      pose_i.at<double>(1, 1) = request.poses(i).data(5);
+      pose_i.at<double>(1, 2) = request.poses(i).data(6);
+      pose_i.at<double>(1, 3) = request.poses(i).data(7);
+      pose_i.at<double>(2, 0) = request.poses(i).data(8);
+      pose_i.at<double>(2, 1) = request.poses(i).data(9);
+      pose_i.at<double>(2, 2) = request.poses(i).data(10);
+      pose_i.at<double>(2, 3) = request.poses(i).data(11);
     std::cout<<"step 7\n";
+      std::cout<<pose_i<<std::endl;
+    std::cout<<"step 8\n";
+      poses.push_back(pose_i);
+      //cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
+    std::cout<<"step 9\n";
+    }
+
     std::vector<uchar> data(request.image(0).begin(), request.image(0).end());
 
-    std::cout<<"step 8\n";
     bool copyData = false;
     cv::Mat image = imdecode(cv::Mat(data, copyData), cv::IMREAD_GRAYSCALE);
-    std::cout<<"step 9\n";
     if (image.empty() || image.type() != CV_8U || image.channels() != 1) {
-        std::cout<<"step 10\n";
       stream->Write(response);
       continue;
     }
-    std::cout<<"step 11\n";
 
     // TODO add orientation into JPEG, so we don't need to rotate ourselves
     image = rotateImage(image, request.orientation(0));
-    std::cout<<"step 0\n";
     imwrite("imageRotated.jpg", image);
     int width = image.cols;
     int height = image.rows;
