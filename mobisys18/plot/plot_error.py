@@ -38,6 +38,7 @@ class Evaluator(object):
             self._compute_flows()
             self._write_data(video_file, self._flows, "flows")
 
+        print self._flows[0].shape
         cv2.namedWindow(self._window_name)
         cv2.createTrackbar('track_bar', self._window_name, self._frame_index, len(self._frames) - 1, self._on_change)
         cv2.setMouseCallback(self._window_name, self._on_click)
