@@ -8,7 +8,6 @@ import hashlib
 import pickle
 import os
 
-
 class Evaluator(object):
     def __init__(self, video_file):
         self._frame_index = 0
@@ -20,7 +19,7 @@ class Evaluator(object):
         self._frames = []
         self._read_frames(video_file)
 
-        self._truth_locs = [[(-1, -1), False]] * len(self._frames) # x, y, isManual (False means derived from optical flow)
+        self._truth_locs = [[(-1, -1), False] for _ in range(len(self._frames))] # x, y, isManual (False means derived from optical flow)
 
         print "Trying to read labels..."
         self._label_locs = self._read_data(video_file, "label_locs")
@@ -38,7 +37,6 @@ class Evaluator(object):
             self._compute_flows()
             self._write_data(video_file, self._flows, "flows")
 
-        print self._flows[0].shape
         cv2.namedWindow(self._window_name)
         cv2.createTrackbar('track_bar', self._window_name, self._frame_index, len(self._frames) - 1, self._on_change)
         cv2.setMouseCallback(self._window_name, self._on_click)
@@ -78,12 +76,24 @@ class Evaluator(object):
     
     def _compute_flows(self):
         frames_gray = [cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) for frame in self._frames]
+
+        feature_params = dict(maxCorners = 100,
+                              qualityLevel = 0.3,
+                              minDistance = 7,
+                              blockSize = 7)
+        lk_params = dict(winSize  = (15,15),
+                         maxLevel = 2,
+                         criteria = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
+
         t0 = time.time()
         for i in range(len(self._frames) - 1):
-            prev_frame = frames_gray[i]
-            next_frame = frames_gray[i + 1]
-            flow = cv2.calcOpticalFlowFarneback(prev_frame, next_frame, flow=None, pyr_scale=0.5, levels=3, winsize=15, iterations=3, poly_n=5, poly_sigma=1.1, flags=0)
-            self._flows.append(flow)
+            prev_gray = frames_gray[i]
+            next_gray = frames_gray[i + 1]
+            p0 = cv2.goodFeaturesToTrack(prev_gray, mask = None, **feature_params)
+            p1, st, err = cv2.calcOpticalFlowPyrLK(prev_gray, next_gray, p0, None, **lk_params)
+            good_old = p0[st==1]
+            good_new = p1[st==1]
+            self._flows.append((good_old, good_new))
     
             t1 = time.time()
             time_remain = datetime.timedelta(seconds=int((t1 - t0)/(i + 1)*(len(self._frames) - 1 - (i + 1))))
@@ -92,7 +102,7 @@ class Evaluator(object):
         print ""
     
     def _read_data(self, video_file, label):
-        data_file = hashlib.md5(open(video_file, 'rb').read()).hexdigest() + "." + label
+        data_file = "." + hashlib.md5(open(video_file, 'rb').read()).hexdigest() + "." + label
         data = None
         if os.path.exists(data_file):
             with open(data_file, 'rb') as f:
@@ -100,7 +110,7 @@ class Evaluator(object):
         return data
     
     def _write_data(self, video_file, data, label):
-        data_file = hashlib.md5(open(video_file, 'rb').read()).hexdigest() + "." + label
+        data_file = "." + hashlib.md5(open(video_file, 'rb').read()).hexdigest() + "." + label
         with open(data_file, 'wb') as f:
             pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
     
@@ -112,15 +122,17 @@ class Evaluator(object):
         self._truth_locs[self._frame_index][0] = self._click_pt
         self._truth_locs[self._frame_index][1] = True 
         for i in range(self._frame_index, len(self._flows)):
-            flow = self._flows[i]
+            old, new = self._flows[i]
             print self._frame_index, self._truth_locs[i]
             x, y = self._truth_locs[i][0]
-            is_manual = self._truth_locs[i + 1][1]
-            if is_manual == True: # only use optical flow if next one was not manually labeled
+            is_next_manual = self._truth_locs[i + 1][1]
+            if is_next_manual == True: # only use optical flow if next one was not manually labeled
+                print "next frame {0} manually labelled, stop truth location computation".format(i + 1)
                 break
-            else:
-                print "updating frame ", i + 1
-                self._truth_locs[i + 1][0] = (x + flow[y, x][0], y + flow[y, x][1])
+            print "updating truth location on frame ", i + 1
+            index = np.argmin(map(lambda p: np.linalg.norm(p - np.array((x, y))), old))
+            offset = (new[index] - old[index]).astype(int)
+            self._truth_locs[i + 1][0] = (x + offset[0], y + offset[1])
     
     def _on_click(self, event, x, y, flags, param):
         if event == cv2.EVENT_LBUTTONDOWN:
