@@ -77,11 +77,13 @@ grpc::Status GrpcFrontEnd::localize(
     std::vector<cv::Mat> images;
     std::vector<cv::Mat> poses;
     std::cout<<"step 1\n";
+    std::cout<<"There are " << numOfImages << std::endl;
     for(int i = 0; i < numOfImages; i++) {
     std::cout<<"step 2\n";
       std::vector<uchar> data_i(request.image(i).begin(), request.image(i).end());
     std::cout<<"step 3\n";
       cv::Mat image_i = imdecode(cv::Mat(data_i, false), cv::IMREAD_GRAYSCALE);
+      //cv::Mat image_i(request.image_height(), request.image_width(), CV_8UC1, &(data_i)[0]);
     std::cout<<"step 4\n";
       images.push_back(image_i);
     std::cout<<"step 5\n";
@@ -103,7 +105,7 @@ grpc::Status GrpcFrontEnd::localize(
       std::cout<<pose_i<<std::endl;
     std::cout<<"step 8\n";
       poses.push_back(pose_i);
-      //cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
+      cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
     std::cout<<"step 9\n";
     }
 
@@ -111,6 +113,7 @@ grpc::Status GrpcFrontEnd::localize(
 
     bool copyData = false;
     cv::Mat image = imdecode(cv::Mat(data, copyData), cv::IMREAD_GRAYSCALE);
+    //cv::Mat image(request.image_height(), request.image_width(), CV_8UC1, &(data)[0]);
     if (image.empty() || image.type() != CV_8U || image.channels() != 1) {
       stream->Write(response);
       continue;

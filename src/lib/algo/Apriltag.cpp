@@ -56,18 +56,21 @@ Apriltag::aprilDetect(const cv::Mat &im, const CameraModel &camera) {
   TagDetector detector(family, params);
   detector.process(im, opticalCenter, detections);
   cv::Mat rVec, t;
+  std::cout<<"There are " << detections.size() << " aprilTag detected\n";
   for (unsigned int i = 0; i < detections.size(); i++) {
     std::cout<<"x is "<< detections[i].p[0].x << "   y is "<< detections[i].p[0].y << std::endl;
     CameraUtil::homographyToPoseCV(camera.fx(), camera.fy(), _tagSize,
                                    detections[i].homography, rVec, t);
     cv::Mat r, dump;
     cv::Rodrigues(rVec, r, dump);
-    Transform pose(r.at<double>(0, 0), r.at<double>(0, 1), r.at<double>(0, 2),
-                   t.at<double>(0, 0), //
-                   r.at<double>(1, 0), r.at<double>(1, 1), r.at<double>(1, 2),
-                   t.at<double>(0, 1), //
-                   r.at<double>(2, 0), r.at<double>(2, 1), r.at<double>(2, 2),
-                   t.at<double>(0, 2));
+    Transform pose(r.at<float>(0, 0), r.at<float>(0, 1), r.at<float>(0, 2),
+                   t.at<float>(0, 0), //
+                   r.at<float>(1, 0), r.at<float>(1, 1), r.at<float>(1, 2),
+                   t.at<float>(0, 1), //
+                   r.at<float>(2, 0), r.at<float>(2, 1), r.at<float>(2, 2),
+                   t.at<float>(0, 2));
+    std::cout<<"pose\n";
+    std::cout<<pose<<std::endl;
     tagPoseInCamFrame.push_back(pose);
     tagCodes.push_back(detections[i].code);
   }

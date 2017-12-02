@@ -38,9 +38,9 @@ bool RTABMapAdapter::init(const std::set<std::string> &dbPaths) {
     _roomPaths.emplace(roomId, std::string(dbPath));
 
     createAprilTagPoseTable(roomId);
-    createAprilTagMap(dbPath, roomId);
+    bool tagPoseLoaded = createAprilTagMap(dbPath, roomId);
 
-    if (_aprilTagMapPro[roomId].empty()) {
+    if (!tagPoseLoaded) {
       std::cout << "AprilTagMapPro is empty\n";
       for (std::map<int, Image>::iterator it = _images[roomId].begin();
            it != _images[roomId].end(); ++it) {
@@ -49,7 +49,6 @@ bool RTABMapAdapter::init(const std::set<std::string> &dbPaths) {
             aprilTagDetectResults =
                 aprilTag.aprilDetect(image.getImage(), image.getCameraModel());
         for (unsigned int i = 0; i < aprilTagDetectResults.first.size(); i++) {
-          std::cout << "Detected aprilTag\n";
           int code = aprilTagDetectResults.first[i];
           Transform tagPoseInModelFrame =
               image.getPose() * aprilTagDetectResults.second[i];
@@ -58,7 +57,6 @@ bool RTABMapAdapter::init(const std::set<std::string> &dbPaths) {
         }
       }
     }
-
     roomId++;
   }
   _dbCounts = roomId;
@@ -415,9 +413,10 @@ sqlite3 *RTABMapAdapter::createAprilTagPoseTable(int roomId) {
   }
 }
 
-void RTABMapAdapter::createAprilTagMap(std::string dbPath, int roomId) {
+bool RTABMapAdapter::createAprilTagMap(std::string dbPath, int roomId) {
   std::cerr << "reading aprilTag poses from database " << dbPath << std::endl;
 
+  bool tagLoaded = false;
   // SQLite C API
   sqlite3 *db = nullptr;
   sqlite3_stmt *stmt = nullptr;
@@ -427,13 +426,14 @@ void RTABMapAdapter::createAprilTagMap(std::string dbPath, int roomId) {
   if (rc != SQLITE_OK) {
     std::cerr << "Could not open database " << sqlite3_errmsg(db) << std::endl;
     sqlite3_close(db);
-    return;
+    return tagLoaded;
   }
 
   std::string sql = "SELECT * from AprilTagPoses";
   rc = sqlite3_prepare(db, sql.c_str(), -1, &stmt, nullptr);
   if (rc == SQLITE_OK) {
     while (sqlite3_step(stmt) == SQLITE_ROW) {
+      tagLoaded = true;
       int code = sqlite3_column_int(stmt, 1);
       double r11 = sqlite3_column_double(stmt, 2);
       double r12 = sqlite3_column_double(stmt, 3);
@@ -474,6 +474,7 @@ void RTABMapAdapter::createAprilTagMap(std::string dbPath, int roomId) {
 
   sqlite3_finalize(stmt);
   sqlite3_close(db);
+  return tagLoaded;
 }
 
 std::pair<int, Transform> RTABMapAdapter::lookupAprilCode(int code) {

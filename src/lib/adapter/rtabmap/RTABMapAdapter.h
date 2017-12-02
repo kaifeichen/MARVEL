@@ -30,7 +30,7 @@ public:
                 std::string label_x, std::string label_y) final;
   bool saveAprilTagPose(int roomId, long time, int code,
         Transform pose, double error); 
-  void createAprilTagMap(std::string dataPath, int roomId);
+  bool createAprilTagMap(std::string dataPath, int roomId);
   std::pair<int, Transform> lookupAprilCode(int code);
   std::vector<std::pair<int, Transform>> lookupAprilCodes(std::vector<int> codes);
   int getDBCounts();
