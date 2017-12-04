@@ -7,7 +7,7 @@ import itertools as it
 import hashlib
 import pickle
 import os
-
+import zbar
 
 def read_data(data_file):
     data = None
@@ -32,6 +32,10 @@ class Labeler(object):
         print "Reading the video..."
         self._frames = []
         self._read_frames()
+        width, height = self._frames[0].shape[:2]
+        self._frames_small = [cv2.resize(frame, ((height/3, width/3))) for frame in self._frames]
+        self._frames_gray = [cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) for frame in self._frames]
+        self._frames_small_gray = [cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) for frame in self._frames_small]
 
         print "Trying to read truth locations..."
         self._truth_locs = read_data("." + self._file_hash + ".truth_locs")
@@ -71,25 +75,17 @@ class Labeler(object):
         cap.release()
     
     def _detect_label_locs(self):
-        size = 35
-        template = np.zeros(shape=(size, size), dtype=np.uint8)
-        cv2.circle(template, center=(3,3), radius=3, color=255, thickness=-1)
-        cv2.circle(template, center=(32,32), radius=3, color=255, thickness=-1)
-        cv2.circle(template, center=(3,32), radius=3, color=255, thickness=-1)
-        cv2.circle(template, center=(32,3), radius=3, color=255, thickness=-1)
-        #cv2.rectangle(template, pt1=(0, 0), pt2=(size, size), color=255, thickness=5)
-
-    
+        scanner = zbar.Scanner()
         t0 = time.time()
         for i in range(len(self._frames)):
-            frame = self._frames[i]
-            hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-            lower = np.array([115, 30, 30])
-            upper = np.array([125, 255, 255])
-            filtered = cv2.inRange(hsv, lower, upper)
-            matched = cv2.matchTemplate(filtered, template, method=cv2.TM_CCORR)
-            _, _, _, max_loc = cv2.minMaxLoc(matched)
-            label_loc = tuple(x + size/2 for x in max_loc)
+            frame = self._frames_gray[i]
+            results = scanner.scan(frame)
+            assert len(results) <= 1
+            if len(results) == 0:
+                label_loc = tuple((-1, -1))
+            else:
+                items = results[0].data.split()
+                label_loc = tuple((int(float(items[1])), int(float(items[2]))))
             self._label_locs.append(label_loc)
     
             t1 = time.time()
@@ -99,9 +95,8 @@ class Labeler(object):
         print ""
     
     def _compute_flows(self):
-        frames_gray = [cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) for frame in self._frames]
 
-        feature_params = dict(maxCorners = 100,
+        feature_params = dict(maxCorners = 500,
                               qualityLevel = 0.3,
                               minDistance = 7,
                               blockSize = 7)
@@ -111,9 +106,12 @@ class Labeler(object):
 
         t0 = time.time()
         for i in range(len(self._frames) - 1):
-            prev_gray = frames_gray[i]
-            next_gray = frames_gray[i + 1]
-            p0 = cv2.goodFeaturesToTrack(prev_gray, mask = None, **feature_params)
+            prev_gray = self._frames_small_gray[i]
+            next_gray = self._frames_small_gray[i + 1]
+            print prev_gray.shape
+            mask = np.zeros(prev_gray.shape, np.uint8);
+            cv2.rectangle(mask, (0, 0), (360, 590), 255, thickness=-1)
+            p0 = cv2.goodFeaturesToTrack(prev_gray, mask=mask, **feature_params)
             p1, st, err = cv2.calcOpticalFlowPyrLK(prev_gray, next_gray, p0, None, **lk_params)
             good_old = p0[st==1]
             good_new = p1[st==1]
@@ -140,15 +138,17 @@ class Labeler(object):
                 print "next frame {0} manually labelled, stop truth location computation".format(i + 1)
                 break
             print "updating truth location on frame ", i + 1
-            pairs = list(filter(lambda p: np.linalg.norm(p[0]-np.array((x, y))) < 300, zip(old, new)))
+            #pairs = list(filter(lambda p: np.linalg.norm(p[0]-np.array((x, y))) < 300, zip(old, new)))
+            pairs = zip(old, new)
             pairs = sorted(pairs, key=lambda p: np.linalg.norm(p[0]-np.array((x, y))), reverse=True)
+            pairs = pairs[:5]
             offsets = []
             if len(pairs) == 0:
+                print "cannot find sufficient optical flow point pairs"
                 break
             for pair in pairs:
                 offsets.append(pair[1] - pair[0])
             offset = np.mean(offsets, axis=0).astype(int)
-            print offset
             self._truth_locs[i + 1][0] = (x + offset[0], y + offset[1])
         write_data(self._truth_locs, "." + self._file_hash + ".truth_locs")
     
@@ -163,7 +163,7 @@ class Labeler(object):
             self._refresh_ui()
     
     def _refresh_ui(self):
-        frame = self._frames[self._frame_index].copy()
+        frame = self._frames_small[self._frame_index].copy()
         cv2.circle(frame, self._label_locs[self._frame_index], 5, (255, 0, 0), 2)
         if self._truth_locs[self._frame_index][0] != (-1, -1):
             cv2.circle(frame, self._truth_locs[self._frame_index][0], 5, (0, 0, 255), 2)
