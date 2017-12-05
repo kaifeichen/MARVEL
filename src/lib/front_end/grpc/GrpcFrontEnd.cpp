@@ -72,98 +72,59 @@ grpc::Status GrpcFrontEnd::localize(
       continue; 
     }
     response.set_request_id(request.request_id(0));
-    response.set_success(false);
     int numOfImages = request.image_size();
     std::vector<cv::Mat> images;
     std::vector<cv::Mat> poses;
     std::cout<<"step 1\n";
     std::cout<<"There are " << numOfImages << std::endl;
     for(int i = 0; i < numOfImages; i++) {
-    std::cout<<"step 2\n";
+      std::cout<<"step 2\n";
       std::vector<uchar> data_i(request.image(i).begin(), request.image(i).end());
-    std::cout<<"step 3\n";
+      std::cout<<"step 3\n";
       cv::Mat image_i = imdecode(cv::Mat(data_i, false), cv::IMREAD_GRAYSCALE);
       //cv::Mat image_i(request.image_height(), request.image_width(), CV_8UC1, &(data_i)[0]);
-    std::cout<<"step 4\n";
+      if (image_i.empty() || image_i.type() != CV_8U || image_i.channels() != 1) {
+        response.add_pose();
+        response.add_success(false);
+        continue;
+      }
+
+      // TODO add orientation into JPEG, so we don't need to rotate ourselves
+      image_i = rotateImage(image_i, request.orientation(0));
       images.push_back(image_i);
-    std::cout<<"step 5\n";
-      cv::Mat pose_i = cv::Mat::eye(3, 4, CV_64FC1); 
-    std::cout<<"step 6\n";
-      pose_i.at<double>(0, 0) = request.poses(i).data(0);
-      pose_i.at<double>(0, 1) = request.poses(i).data(1);
-      pose_i.at<double>(0, 2) = request.poses(i).data(2);
-      pose_i.at<double>(0, 3) = request.poses(i).data(3);
-      pose_i.at<double>(1, 0) = request.poses(i).data(4);
-      pose_i.at<double>(1, 1) = request.poses(i).data(5);
-      pose_i.at<double>(1, 2) = request.poses(i).data(6);
-      pose_i.at<double>(1, 3) = request.poses(i).data(7);
-      pose_i.at<double>(2, 0) = request.poses(i).data(8);
-      pose_i.at<double>(2, 1) = request.poses(i).data(9);
-      pose_i.at<double>(2, 2) = request.poses(i).data(10);
-      pose_i.at<double>(2, 3) = request.poses(i).data(11);
-    std::cout<<"step 7\n";
-      std::cout<<pose_i<<std::endl;
-    std::cout<<"step 8\n";
-      poses.push_back(pose_i);
-      cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
-    std::cout<<"step 9\n";
+      // cv::imwrite(std::to_string(i)+ "_"+ std::to_string((int)request.blurness(i)) + ".jpg", image_i);
+      int width = image_i.cols;
+      int height = image_i.rows;
+      response.set_width0(width);
+      response.set_height0(height);
+      float fx = request.camera().fx();
+      float fy = request.camera().fy();
+      float cx = request.camera().cx();
+      float cy = request.camera().cy();
+      updateIntrinsics(width, height, request.orientation(0), cx, cy);
+      CameraModel camera("", fx, fy, cx, cy, cv::Size(width, height));
+      std::vector<FoundItem> items;
+      std::pair<int, Transform>result = localizeFunc()(image_i, camera, &items);
+      int dbId = result.first;
+      Transform pose = result.second;
+      if(pose.isNull()) {
+        response.add_pose();
+        response.add_success(false);
+        continue;
+      } 
+      response.add_success(true);
+      response.set_width(width > height ? height : width);
+      response.set_height(width > height ? width : height);
+      response.set_db_id(dbId);
+      snaplink_grpc::Matrix *result_pose_i = response.add_pose();
+      std::cout<<"Result pose i size after declare is " <<result_pose_i->data_size() << std::endl;
+      result_pose_i->set_cols(4);
+      result_pose_i->set_rows(3);
+      for (unsigned int i = 0; i < 12; i++) {
+        result_pose_i->add_data(pose.data()[i]);
+      }
     }
-
-    std::vector<uchar> data(request.image(0).begin(), request.image(0).end());
-
-    bool copyData = false;
-    cv::Mat image = imdecode(cv::Mat(data, copyData), cv::IMREAD_GRAYSCALE);
-    //cv::Mat image(request.image_height(), request.image_width(), CV_8UC1, &(data)[0]);
-    if (image.empty() || image.type() != CV_8U || image.channels() != 1) {
-      stream->Write(response);
-      continue;
-    }
-
-    // TODO add orientation into JPEG, so we don't need to rotate ourselves
-    image = rotateImage(image, request.orientation(0));
-    imwrite("imageRotated.jpg", image);
-    int width = image.cols;
-    int height = image.rows;
-    response.set_width0(width);
-    response.set_height0(height);
-    float fx = request.camera().fx();
-    float fy = request.camera().fy();
-    float cx = request.camera().cx();
-    float cy = request.camera().cy();
-    updateIntrinsics(width, height, request.orientation(0), cx, cy);
-    std::cout << "Width = " << width << ", Height = " << height
-              << " Cx = " << cx << " Cy = " << cy << std::endl;
-    CameraModel camera("", fx, fy, cx, cy, cv::Size(width, height));
-    std::vector<FoundItem> items;
-    std::pair<int, Transform>result = localizeFunc()(image, camera, &items);
-
-    int dbId = result.first;
-    Transform pose = result.second;
-    if (pose.isNull()) {
-      stream->Write(response);
-      continue;
-    }
-
-    response.set_db_id(dbId);
-    response.set_success(true);
-    response.mutable_pose()->set_cols(4);
-    response.mutable_pose()->set_rows(3);
-    for (unsigned int i = 0; i < 12; i++) {
-      response.mutable_pose()->add_data(pose.data()[i]);
-    }
-
-    // items are for test purpose only
-    for (unsigned int i = 0; i < items.size(); i++) {
-      snaplink_grpc::Item *item = response.add_items();
-      item->set_name(items[i].name());
-      item->set_x(items[i].x());
-      item->set_y(items[i].y());
-      item->set_size(items[i].size());
-    }
-    response.set_width(width > height ? height : width);
-    response.set_height(width > height ? width : height);
-
-    stream->Write(response);
+    stream->Write(response);      
   }
 
   {
