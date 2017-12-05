@@ -15,6 +15,7 @@ for a, b in zip(truth_locs, label_locs):
     else:
         data.append(np.linalg.norm(a[0] - b))
 
+fig = plt.figure(figsize=(12, 5))
 plt.plot(data, ".-")
 plt.xlabel("Frame Number", fontsize=22)
 plt.ylabel("Error (pixel)", fontsize=22)
