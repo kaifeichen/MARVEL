@@ -1,5 +1,5 @@
 *.flows
-*.label_locs
+*.labels
 *.truth_locs
 plot/*.pdf
 *.pyc

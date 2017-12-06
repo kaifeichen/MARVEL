@@ -45,12 +45,12 @@ class Labeler(object):
             write_data(self._truth_locs, "." + self._file_hash + ".truth_locs")
 
         print "Trying to read labels..."
-        self._label_locs = read_data("." + self._file_hash + ".label_locs")
-        if self._label_locs is None or len(self._label_locs) != len(self._frames):
+        self._labels = read_data("." + self._file_hash + ".labels")
+        if self._labels is None or len(self._labels) != len(self._frames):
             print "Reading failed, detecting labels..."
-            self._label_locs = []
-            self._detect_label_locs()
-            write_data(self._label_locs, "." + self._file_hash + ".label_locs")
+            self._labels = []
+            self._detect_labels()
+            write_data(self._labels, "." + self._file_hash + ".labels")
 
         print "Trying to read optical flows..."
         self._flows = read_data("." + self._file_hash + ".flows")
@@ -74,7 +74,7 @@ class Labeler(object):
                 break
         cap.release()
     
-    def _detect_label_locs(self):
+    def _detect_labels(self):
         scanner = zbar.Scanner()
         t0 = time.time()
         for i in range(len(self._frames)):
@@ -82,11 +82,14 @@ class Labeler(object):
             results = scanner.scan(frame)
             assert len(results) <= 1
             if len(results) == 0:
-                label_loc = tuple((-1, -1))
+                event = 'n'
+                loc = tuple((-1, -1))
             else:
                 items = results[0].data.split()
-                label_loc = tuple((int(float(items[1])), int(float(items[2]))))
-            self._label_locs.append(label_loc)
+                event = items[0]
+                x, y = items[1].split("_")
+                loc = tuple((int(float(x)), int(float(y))))
+            self._labels.append((event, loc))
     
             t1 = time.time()
             time_remain = datetime.timedelta(seconds=int((t1 - t0)/(i + 1)*(len(self._frames) - (i + 1))))
@@ -108,7 +111,6 @@ class Labeler(object):
         for i in range(len(self._frames) - 1):
             prev_gray = self._frames_small_gray[i]
             next_gray = self._frames_small_gray[i + 1]
-            print prev_gray.shape
             mask = np.zeros(prev_gray.shape, np.uint8);
             cv2.rectangle(mask, (0, 0), (360, 590), 255, thickness=-1)
             p0 = cv2.goodFeaturesToTrack(prev_gray, mask=mask, **feature_params)
@@ -164,7 +166,7 @@ class Labeler(object):
     
     def _refresh_ui(self):
         frame = self._frames_small[self._frame_index].copy()
-        cv2.circle(frame, self._label_locs[self._frame_index], 5, (255, 0, 0), 2)
+        cv2.circle(frame, self._labels[self._frame_index][1], 5, (255, 0, 0), 2)
         if self._truth_locs[self._frame_index][0] != (-1, -1):
             cv2.circle(frame, self._truth_locs[self._frame_index][0], 5, (0, 0, 255), 2)
         cv2.imshow(self._window_name, frame)
