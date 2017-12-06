@@ -71,7 +71,6 @@ grpc::Status GrpcFrontEnd::localize(
     if(request.request_id_size() == 0) {
       continue; 
     }
-    response.set_request_id(request.request_id(0));
     int numOfImages = request.image_size();
     std::vector<cv::Mat> images;
     std::vector<cv::Mat> poses;
@@ -79,12 +78,16 @@ grpc::Status GrpcFrontEnd::localize(
     std::cout<<"There are " << numOfImages << std::endl;
     for(int i = 0; i < numOfImages; i++) {
       std::cout<<"step 2\n";
+      response.add_request_id(request.request_id(i));
       std::vector<uchar> data_i(request.image(i).begin(), request.image(i).end());
       std::cout<<"step 3\n";
       cv::Mat image_i = imdecode(cv::Mat(data_i, false), cv::IMREAD_GRAYSCALE);
       //cv::Mat image_i(request.image_height(), request.image_width(), CV_8UC1, &(data_i)[0]);
       if (image_i.empty() || image_i.type() != CV_8U || image_i.channels() != 1) {
-        response.add_pose();
+        snaplink_grpc::Matrix *result_pose_i = response.add_pose();
+        for (unsigned int i = 0; i < 12; i++) {
+          result_pose_i->add_data(0);
+        }
         response.add_success(false);
         continue;
       }
@@ -108,7 +111,10 @@ grpc::Status GrpcFrontEnd::localize(
       int dbId = result.first;
       Transform pose = result.second;
       if(pose.isNull()) {
-        response.add_pose();
+        snaplink_grpc::Matrix *result_pose_i = response.add_pose();
+        for (unsigned int i = 0; i < 12; i++) {
+          result_pose_i->add_data(0);
+        }
         response.add_success(false);
         continue;
       } 
