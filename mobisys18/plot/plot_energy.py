@@ -33,7 +33,13 @@ prev_times, prev_data = readPower(os.path.join(path, "onlyPreview.csv"))
 imu_times, imu_data = readPower(os.path.join(path, "onlyPreviewAndIMU.csv"))
 of_times, of_data = readPower(os.path.join(path, "onlyPreviewAndOF_YUV.csv"))
 offload_times, offload_data = readPower(os.path.join(path, "onlyPreviewAndOffloading.csv"))
+local_times, local_data = readPower(os.path.join(path, "rtabmap.csv"))
 
+print "prev:", np.mean(prev_data), np.std(prev_data)
+print "imu:", np.mean(imu_data), np.std(imu_data)
+print "of:", np.mean(of_data), np.std(of_data)
+print "offload:", np.mean(offload_data), np.std(offload_data)
+print "local:", np.mean(local_data), np.std(local_data)
 
 fig = plt.figure(figsize=(12, 5))
 plot_cdf(prev_data, 'k-', "Preview", linewidth=2)
