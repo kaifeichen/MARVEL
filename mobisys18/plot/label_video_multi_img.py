@@ -86,9 +86,8 @@ class Labeler(object):
                 label = None
             else:
                 items = results[0].data.split()
-                event = items[0]
-                label = [event]
-                for item in items[1:]:
+                label = []
+                for item in items:
                     x, y = item.split("_")
                     label.append(tuple((int(float(x)), int(float(y)))))
 
