@@ -67,6 +67,7 @@ message LocalizationResponse {
   uint32 angle = 8;
   double width0 = 9;
   double height0 = 10;
+  uint64 process_time = 11;
 }
 
 message GetLabelsResponse {

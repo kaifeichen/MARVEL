@@ -3,7 +3,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/opencv.hpp>
 #include <string>
-
+#include "lib/util/Utility.h"
 const std::string GrpcFrontEnd::none = "None";
 
 GrpcFrontEnd::GrpcFrontEnd(int grpcServerAddr, unsigned int maxClients) {
@@ -55,7 +55,7 @@ grpc::Status GrpcFrontEnd::localize(
     grpc::ServerReaderWriter<snaplink_grpc::LocalizationResponse,
                              snaplink_grpc::LocalizationRequest> *stream) {
   (void)context; // ignore that variable without causing warnings
-
+  
   {
     std::lock_guard<std::mutex> lock(_mutex);
     if (_numClients >= _maxClients) {
@@ -68,6 +68,7 @@ grpc::Status GrpcFrontEnd::localize(
   snaplink_grpc::LocalizationRequest request;
   while (stream->Read(&request)) {
     snaplink_grpc::LocalizationResponse response;
+    long time = Utility::getTime();
     if(request.request_id_size() == 0) {
       continue; 
     }
@@ -130,6 +131,7 @@ grpc::Status GrpcFrontEnd::localize(
         result_pose_i->add_data(pose.data()[i]);
       }
     }
+    response.set_process_time(Utility::getTime() - time);
     stream->Write(response);      
   }
 
@@ -137,6 +139,7 @@ grpc::Status GrpcFrontEnd::localize(
     std::lock_guard<std::mutex> lock(_mutex);
     _numClients--;
   }
+
 
   return grpc::Status::OK;
 }
