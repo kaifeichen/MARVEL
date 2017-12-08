@@ -18,13 +18,15 @@ for a, b in zip(truth_locs, labels):
             datas[i].append(np.nan)
     else:
         for i in range(7):
-            datas[i].append(np.linalg.norm(a[0] - np.array(b[i])))
+            if(len(b)==7):
+                datas[i].append(np.linalg.norm(a[0] - np.array(b[i])))
 
 fig = plt.figure(figsize=(12, 5))
 #for i in range(7):
 #    plt.plot(datas[i], label=str(i))
 
-plt.boxplot(datas, whis = 'range')
+plt.boxplot(datas)
+#plt.boxplot(datas, whis = 'range')
 plt.xlabel("Number of Images Offloaded", fontsize=22)
 plt.ylabel("Error (pixel)", fontsize=22)
 plt.grid()
