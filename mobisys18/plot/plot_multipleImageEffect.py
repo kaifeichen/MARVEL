@@ -11,11 +11,10 @@ labels = read_data("." + file_hash + ".labels")
 datas = []
 for i in range(7):
     datas.append([])
-
+print(labels)
 for a, b in zip(truth_locs, labels):
     if any(x < 0 for x in a[0]) or b == None:
-        for i in range(7):
-            datas[i].append(np.nan)
+        pass
     else:
         for i in range(7):
             if(len(b)==7):
@@ -26,6 +25,13 @@ fig = plt.figure(figsize=(12, 5))
 #    plt.plot(datas[i], label=str(i))
 
 plt.boxplot(datas)
+print(12345)
+print(len(datas[0]))
+print(len(datas[2]))
+print(len(datas[3]))
+print(len(datas[4]))
+print(len(datas[5]))
+print(len(datas[6]))
 #plt.boxplot(datas, whis = 'range')
 plt.xlabel("Number of Images Offloaded", fontsize=22)
 plt.ylabel("Error (pixel)", fontsize=22)

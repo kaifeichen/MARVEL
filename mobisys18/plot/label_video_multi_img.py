@@ -77,14 +77,16 @@ class Labeler(object):
     def _detect_labels(self):
         scanner = zbar.Scanner()
         t0 = time.time()
+        last_result_data = None
         for i in range(len(self._frames)):
             frame = self._frames_gray[i]
             results = scanner.scan(frame)
             results = filter(lambda x: x.type == u"QR-Code", results) 
             assert len(results) <= 1
-            if len(results) == 0:
+            if len(results) == 0 or results[0].data == last_result_data:
                 label = None
             else:
+                last_result_data = results[0].data
                 items = results[0].data.split()
                 label = []
                 for item in items:

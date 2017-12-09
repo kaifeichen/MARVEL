@@ -11,8 +11,8 @@ def getLatencyList(fileName):
     while(True):
         line = myFile.readline()
         if(len(line)>3):
-            networkTimes.append(float(line.split()[-7]) - float(line.split()[-2]))
-            serverTimes.append(float(line.split()[-2]))
+            networkTimes.append((float(line.split()[-7]) - float(line.split()[-2]))/1000)
+            serverTimes.append(float(line.split()[-2])/1000)
         else:
             break
     return [sum(networkTimes)/len(networkTimes), sum(serverTimes)/len(serverTimes)] 
@@ -25,13 +25,17 @@ for i in range(7):
     networkAvgs.append(result[0])
     serverAvgs.append(result[1])
 
-fig = plt.figure(figsize=(12, 5))
-plt.stackplot(range(1,8), networkAvgs, serverAvgs)
+fig = plt.figure(figsize=(6, 5))
+
+plt.plot([],[],color='m', label='Communication', linewidth=5)
+plt.plot([],[],color='c', label='Image Localization', linewidth=5)
+
+plt.stackplot(range(1,8), networkAvgs, serverAvgs, colors=['m','c'])
 
 
 plt.legend(loc="lower right")
-plt.xlabel("Latency from Caputre to Appearance in Application (ms)", fontsize=22)
-plt.ylabel("CDF", fontsize=22)
+plt.xlabel("Number of Images Offloaded", fontsize=22)
+plt.ylabel("Offloading Time (s)", fontsize=22)
 plt.grid()
 #plt.savefig("sensor_latency.pdf", bbox_inches='tight')
 plt.tight_layout()

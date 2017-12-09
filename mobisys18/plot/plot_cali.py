@@ -24,11 +24,11 @@ for a, b in zip(truth_locs, labels):
         imu.append(np.linalg.norm(a[0] - np.array(b[2])))
         of.append(np.linalg.norm(a[0] - np.array(b[3])))
 
-fig = plt.figure(figsize=(12, 5))
+fig = plt.figure(figsize=(8, 5))
 seconds = [float(x)/32.9 for x in range(len(labels))]
-plt.plot(seconds, corrected, "r-", label="Corrected", lw=2)
-plt.plot(seconds, imu, "b:", label="IMU")
-plt.plot(seconds, of, "g--", label="Optical Flow")
+plt.plot(seconds[0:2050], corrected[0:2050], "r-", label="Corrected", lw=2)
+plt.plot(seconds[0:2050], imu[0:2050], "b:", label="IMU")
+plt.plot(seconds[0:2050], of[0:2050], "g--", label="Optical Flow")
 
 #for i in range(len(events)):
 #    if events[i] == "O":
@@ -39,9 +39,9 @@ plt.xlabel("Time (s)", fontsize=22)
 plt.ylabel("Error (pixel)", fontsize=22)
 plt.tick_params(axis='both', which='major', labelsize=20)
 plt.grid()
-plt.legend(loc="upper right", bbox_to_anchor=(0.8, 1))
-#plt.xlim(xmax=65)
-#plt.ylim(ymax=180)
+plt.legend(loc="upper right")
+plt.xlim(xmax=65)
+plt.ylim(ymax=180)
 plt.savefig("eval_of.pdf", bbox_inches='tight')
 plt.tight_layout()
 #plt.show()
