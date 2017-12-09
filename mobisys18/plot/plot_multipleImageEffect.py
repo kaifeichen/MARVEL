@@ -20,7 +20,7 @@ for a, b in zip(truth_locs, labels):
             if(len(b)==7):
                 datas[i].append(np.linalg.norm(a[0] - np.array(b[i])))
 
-fig = plt.figure(figsize=(12, 5))
+fig = plt.figure(figsize=(6, 5))
 #for i in range(7):
 #    plt.plot(datas[i], label=str(i))
 
@@ -33,10 +33,11 @@ print(len(datas[4]))
 print(len(datas[5]))
 print(len(datas[6]))
 #plt.boxplot(datas, whis = 'range')
+plt.tick_params(axis='both', which='major', labelsize=20)
 plt.xlabel("Number of Images Offloaded", fontsize=22)
 plt.ylabel("Error (pixel)", fontsize=22)
 plt.grid()
-plt.legend()
+plt.legend(loc="upper right", fontsize=14)
 plt.savefig("cali.pdf", bbox_inches='tight')
 plt.tight_layout()
 plt.show()
