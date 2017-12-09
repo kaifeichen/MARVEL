@@ -27,13 +27,13 @@ for i in range(7):
 
 fig = plt.figure(figsize=(6, 5))
 
-plt.plot([],[],color='m', label='Communication', linewidth=5)
 plt.plot([],[],color='c', label='Image Localization', linewidth=5)
+plt.plot([],[],color='m', label='Communication', linewidth=5)
 
 plt.stackplot(range(1,8), networkAvgs, serverAvgs, colors=['m','c'])
 
 
-plt.legend(loc="upper left", fontsize=20)
+plt.legend(loc="upper left", fontsize=18)
 plt.xlabel("Number of Images Offloaded", fontsize=22)
 plt.ylabel("Offloading Time (s)", fontsize=22)
 plt.grid()
