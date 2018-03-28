@@ -31,31 +31,6 @@ def test_file(filename, stub):
 
     img = Image.open(filename)
     width, height = img.size
-    if height/width == 480/640:
-        width, height = 640, 480
-    elif width/height == 480/640:
-        width, height = 480, 640
-    else:
-        print "wrong image aspect ratio"
-        return RESULT_BAD_FORMAT, 0
-
-    for orientation in ExifTags.TAGS.keys():
-        if ExifTags.TAGS[orientation]=='Orientation':
-            break
-    if not img._getexif():
-        print "No EXIF"
-        return RESULT_BAD_FORMAT, 0
-    exif = dict(img._getexif().items())
-
-    if exif[orientation] == 3:
-        img = img.rotate(180, expand=True)
-    elif exif[orientation] == 6:
-        img = img.rotate(270, expand=True)
-        width, height = height, width
-    elif exif[orientation] == 8:
-        img = img.rotate(90, expand=True)
-        width, height = height, width
-
     img.thumbnail((width, height), Image.ANTIALIAS)
 
     img = img.convert('L') # convert to grayscale
@@ -67,7 +42,7 @@ def test_file(filename, stub):
     print filename, 'width:', width, 'height:', height
     
     t0 = time.time()
-    request = GrpcService_pb2.LocalizationRequest(image=jpg.tostring(), orientation = 1)
+    request = GrpcService_pb2.LocalizationRequest(blurness = [99999], request_id = [1], image=[jpg.tostring()], orientation = [1])
     request.camera.fx=562.25
     request.camera.fy=562.25
     request.camera.cx=240

@@ -219,7 +219,6 @@ std::pair<int, Transform> Run::localize(const cv::Mat &image,
                       aprilDetectResult.second, aprilDetectResult.first,
                       imageLocResultPose);
   }
-
   return std::make_pair(dbId, imgPose);
 }
 

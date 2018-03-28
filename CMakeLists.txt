@@ -114,6 +114,7 @@ set(SOURCES
     "${SnapLink_SOURCE_DIR}/label/Labeler.cpp"
     "${SnapLink_SOURCE_DIR}/measure/Measure.cpp"
     "${SnapLink_SOURCE_DIR}/measure/MeasureWidget.cpp"
+    "${SnapLink_SOURCE_DIR}/evaluation/Evaluation.cpp"
     "${SnapLink_SOURCE_DIR}/main.cpp")
 
 add_executable(snaplink ${SOURCES})
