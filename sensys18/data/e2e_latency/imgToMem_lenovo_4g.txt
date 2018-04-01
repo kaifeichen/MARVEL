@@ -1,893 +1,631 @@
-03-29 14:47:39.896 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:40.230 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:40.563 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:40.898 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:47:41.231 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:47:41.567 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:41.901 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:47:42.233 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:42.566 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:47:42.908 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 14:47:43.235 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:43.570 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:43.900 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:47:44.239 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:47:44.574 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:47:44.905 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:45.238 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:45.573 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:47:45.904 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:47:46.241 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:46.576 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:47:46.907 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:47:47.239 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:47:47.579 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 14:47:47.911 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:48.248 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:47:48.577 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:48.909 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:47:49.252 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 14:47:49.580 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:49.914 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:50.246 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 14:47:50.586 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:47:50.921 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 14:47:51.247 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:47:51.587 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:47:51.914 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 14:47:52.252 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:47:52.585 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:47:52.919 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:47:53.252 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:53.589 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:47:53.920 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:54.256 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:47:54.587 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:47:54.926 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:47:55.258 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:47:55.588 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 14:47:55.924 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:47:56.262 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:47:56.593 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:47:56.925 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:57.260 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:57.594 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:47:57.931 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:47:58.266 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:47:58.599 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:47:58.929 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:47:59.261 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:47:59.596 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:47:59.932 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:00.264 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:00.598 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:00.933 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:01.265 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:01.603 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:01.933 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:02.270 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:02.604 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:02.940 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:48:03.266 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:48:03.608 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:48:03.937 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:04.274 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:04.608 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:04.937 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 14:48:05.273 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:05.607 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:05.941 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:06.275 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:06.612 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:06.943 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:07.276 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:07.619 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 79
-03-29 14:48:07.946 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:08.279 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:08.609 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:48:08.950 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 14:48:09.275 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 66
-03-29 14:48:09.615 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:09.949 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:10.280 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:10.614 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 14:48:10.949 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:11.285 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:11.618 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:11.952 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:12.288 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:12.619 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:12.954 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:13.289 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:13.620 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:13.955 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:14.287 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:14.628 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 14:48:14.956 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:15.290 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:15.622 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 14:48:15.959 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:16.292 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:16.623 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:48:16.959 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:17.294 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:17.628 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:17.959 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:48:18.298 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:18.629 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:18.963 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:19.296 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:19.631 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:19.965 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:20.304 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 14:48:20.635 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:20.966 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:21.304 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:21.633 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:21.964 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:48:22.302 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:22.636 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:22.969 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:23.304 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:23.639 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:23.973 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:24.307 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:24.641 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:24.972 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:25.308 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:25.639 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:48:25.977 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:26.308 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:26.642 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:26.980 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:27.309 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:27.644 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:27.980 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:28.314 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:28.642 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:48:28.979 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:29.311 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:48:29.647 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:29.981 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:30.315 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:30.649 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:30.984 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:31.317 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:31.654 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 14:48:31.987 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:32.323 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 14:48:32.659 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 14:48:32.991 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 14:48:33.323 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:33.660 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 14:48:33.992 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:34.325 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:34.655 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:34.995 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 14:48:35.326 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:35.660 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:35.991 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:36.323 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:48:36.659 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:36.997 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:37.324 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 14:48:37.663 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:37.999 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:38.329 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:38.663 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:38.996 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:39.331 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:39.664 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:40.000 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:40.329 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:48:40.667 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:41.003 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:48:41.337 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:41.668 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:42.005 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 14:48:42.339 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:42.670 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:43.001 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:48:43.337 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:43.669 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:48:44.005 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:44.342 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:44.673 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:45.009 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:45.344 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:45.678 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:46.010 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:48:46.342 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:46.677 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:47.010 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:47.347 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:47.678 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:48.012 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:48.345 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:48:48.681 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:49.024 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 14:48:49.350 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:49.681 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:50.012 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 14:48:50.349 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:50.684 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:51.017 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:51.351 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:51.689 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:48:52.021 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:52.353 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:52.688 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 14:48:53.021 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:53.354 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:53.692 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:48:54.023 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:54.356 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:54.691 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:48:55.023 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:55.358 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:48:55.691 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:48:56.026 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:56.360 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:48:56.694 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:45.903 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 14:49:46.237 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 14:49:46.570 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 80
-03-29 14:49:46.897 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:49:47.229 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:47.562 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:49:47.896 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:48.228 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:49:48.565 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:48.900 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:49:49.232 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:49.566 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:49.909 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 80
-03-29 14:49:50.234 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:50.565 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:49:50.899 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:49:51.247 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 83
-03-29 14:49:51.569 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:51.904 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:52.235 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 14:49:52.572 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:49:52.905 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:53.239 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:53.578 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 14:49:53.904 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 14:49:54.244 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 14:49:54.577 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 14:49:54.914 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 14:49:55.245 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 14:49:55.578 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 14:49:55.911 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:56.245 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 14:49:56.578 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:56.912 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:57.256 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 14:49:57.579 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:49:57.912 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 14:49:58.247 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 14:49:58.581 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 14:49:58.916 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:49:59.250 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 14:49:59.580 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 14:49:59.927 16702-16702/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 80
-03-29 15:06:09.829 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:10.161 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:10.495 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:10.829 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:11.165 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:11.495 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:11.830 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:12.169 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 15:06:12.498 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:12.831 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:13.161 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 15:06:13.501 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:06:13.832 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:14.168 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:14.504 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:14.836 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:15.171 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:15.503 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:15.839 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:16.171 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:16.504 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:16.847 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 15:06:17.170 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:17.503 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:06:17.837 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:18.175 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:18.508 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:18.846 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 15:06:19.177 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:06:19.513 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:06:19.839 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:06:20.178 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:20.513 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:06:20.847 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:21.175 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:06:21.514 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:21.849 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:22.181 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:22.514 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:22.850 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:23.185 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:23.516 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:23.848 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:24.193 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 15:06:24.518 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:24.852 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:25.187 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:25.520 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:25.857 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:06:26.196 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 81
-03-29 15:06:26.522 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:26.852 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:06:27.188 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:06:27.523 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:27.859 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:28.192 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:28.525 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:28.856 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:29.189 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:06:29.526 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:29.863 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:30.197 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:30.526 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:30.861 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:06:31.196 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:31.530 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:31.864 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:32.198 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:32.532 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:32.868 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:06:33.201 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:33.529 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:06:33.867 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:34.202 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:34.540 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 15:06:34.867 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:35.203 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:35.538 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:35.869 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:36.205 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:36.538 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:36.874 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:37.206 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:37.541 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:37.869 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 15:06:38.204 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:06:38.542 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:38.886 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 82
-03-29 15:06:39.212 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:39.543 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:39.879 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:40.216 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 15:06:40.551 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 78
-03-29 15:06:40.880 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:41.215 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:41.548 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:41.879 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 15:06:42.217 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:42.547 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:42.883 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:43.215 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:43.553 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:43.885 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:44.218 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:44.558 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 15:06:44.887 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:45.220 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:45.555 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:45.886 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:46.221 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:06:46.555 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:46.892 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:47.226 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:06:47.559 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:47.890 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:48.226 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:48.561 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:48.893 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:49.226 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:49.562 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:49.891 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:50.230 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:50.561 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:06:50.898 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:06:51.231 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:51.569 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 15:06:51.898 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:06:52.231 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:52.566 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:52.900 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:53.230 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:06:53.568 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:53.901 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:54.235 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:06:54.579 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 15:06:54.903 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:55.236 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:06:55.571 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:55.906 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:56.235 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:06:56.573 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:56.909 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:06:57.243 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:06:57.570 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 15:06:57.904 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:06:58.239 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:06:58.573 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:06:58.911 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:06:59.245 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:06:59.578 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:06:59.909 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:00.246 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:00.589 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 82
-03-29 15:07:00.914 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:01.244 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:01.583 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:01.917 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:02.250 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:02.581 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:02.918 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:03.250 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:03.596 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 83
-03-29 15:07:03.920 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:04.254 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:04.591 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 15:07:04.921 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:05.259 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 77
-03-29 15:07:05.589 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:05.921 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:06.255 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:06.592 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:06.933 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 15:07:07.256 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:07.593 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:07.922 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:08.259 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:08.594 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:08.926 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:09.261 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:09.598 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 15:07:09.927 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:10.263 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:10.598 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:10.930 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:11.265 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:11.594 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:11.934 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:12.263 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:12.600 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:12.934 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:13.268 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:13.601 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:13.937 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:14.269 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:14.604 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:14.939 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:15.273 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:15.605 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:15.936 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:16.274 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:16.609 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:07:16.941 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:17.278 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 15:07:17.606 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:17.942 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:18.272 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:18.606 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:18.944 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:19.280 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:19.612 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:19.946 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:20.276 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:07:20.615 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:20.943 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:07:21.282 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:21.616 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:21.949 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:22.288 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 15:07:22.617 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:22.948 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:23.284 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:23.623 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 15:07:23.954 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:24.286 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:24.622 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:24.953 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:25.298 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 82
-03-29 15:07:25.624 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:07:25.956 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:26.299 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 15:07:26.624 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:26.958 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:27.291 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:27.622 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:27.955 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:07:28.292 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:28.627 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:28.961 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:29.294 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:29.627 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 15:07:29.959 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:07:30.292 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 15:07:30.640 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 82
-03-29 15:07:30.964 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:31.297 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:31.629 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:31.965 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:32.303 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:07:32.634 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:32.966 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:33.302 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:33.632 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:33.966 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 68
-03-29 15:07:34.312 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 15:07:34.637 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:34.972 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:35.305 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:35.636 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:35.969 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:07:36.307 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:36.641 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:36.984 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 82
-03-29 15:07:37.319 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 83
-03-29 15:07:37.642 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:37.976 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:38.305 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 67
-03-29 15:07:38.653 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 81
-03-29 15:07:38.975 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 70
-03-29 15:07:39.312 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:39.641 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 15:07:39.975 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 67
-03-29 15:07:40.315 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:40.647 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:40.982 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:41.315 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:41.650 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:41.982 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:42.312 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:07:42.651 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:42.986 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:43.321 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:43.650 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:43.988 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:44.323 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:07:44.657 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:44.986 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:45.320 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 70
-03-29 15:07:45.656 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:45.993 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:07:46.323 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:46.657 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:46.994 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:47.321 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:07:47.661 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:47.995 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:07:48.323 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 68
-03-29 15:07:48.660 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:48.995 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:49.330 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:49.663 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:49.996 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:50.333 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:50.667 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:07:50.998 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:51.332 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:51.666 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:52.002 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:07:52.335 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:52.669 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:53.001 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:53.338 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:07:53.669 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:54.003 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:54.339 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:54.671 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:55.002 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:55.339 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:55.673 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:56.006 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:07:56.338 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:56.674 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:57.017 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 80
-03-29 15:07:57.343 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:07:57.673 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 69
-03-29 15:07:58.013 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:07:58.343 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 71
-03-29 15:07:58.679 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:07:59.013 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 73
-03-29 15:07:59.346 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:07:59.679 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:08:00.017 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 15:08:00.349 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:08:00.682 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:08:01.015 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:08:01.352 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:08:01.683 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:08:02.016 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:08:02.351 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:08:02.687 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 75
-03-29 15:08:03.022 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:08:03.355 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 75
-03-29 15:08:03.691 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 77
-03-29 15:08:04.024 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 76
-03-29 15:08:04.355 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:08:04.691 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 74
-03-29 15:08:05.024 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 74
-03-29 15:08:05.357 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:08:05.690 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:08:06.024 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:08:06.358 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 72
-03-29 15:08:06.688 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 69
-03-29 15:08:07.029 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 76
-03-29 15:08:07.359 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 72
-03-29 15:08:07.695 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:08:08.026 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    imgToMem = 71
-03-29 15:08:08.362 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-03-29 15:08:08.696 17665-17665/edu.berkeley.cs.sdb.cellmate I/System.out: imgToMem = 73
-
+70
+70
+70
+71
+69
+71
+72
+70
+68
+76
+70
+70
+67
+72
+73
+70
+70
+71
+68
+70
+72
+69
+67
+74
+71
+74
+70
+68
+77
+71
+71
+69
+75
+77
+68
+74
+67
+72
+71
+71
+70
+73
+70
+72
+69
+74
+73
+69
+70
+75
+72
+70
+71
+71
+74
+75
+75
+71
+69
+70
+72
+70
+70
+71
+70
+73
+69
+72
+72
+75
+67
+75
+70
+73
+73
+69
+71
+71
+71
+71
+74
+71
+70
+79
+73
+72
+68
+75
+66
+72
+72
+70
+69
+70
+72
+71
+72
+73
+70
+72
+73
+70
+71
+69
+76
+71
+70
+69
+72
+71
+68
+70
+71
+71
+68
+73
+71
+71
+70
+71
+71
+77
+73
+70
+74
+70
+67
+71
+71
+70
+71
+72
+72
+72
+72
+69
+71
+68
+73
+70
+70
+74
+69
+71
+73
+72
+67
+69
+68
+70
+70
+70
+71
+71
+71
+74
+72
+75
+77
+75
+73
+76
+74
+73
+70
+76
+73
+72
+70
+68
+70
+74
+67
+73
+74
+70
+71
+70
+71
+70
+72
+67
+71
+73
+73
+71
+74
+73
+71
+68
+70
+68
+70
+73
+70
+73
+73
+73
+72
+70
+71
+70
+73
+70
+71
+69
+71
+81
+73
+70
+67
+70
+71
+70
+71
+74
+72
+71
+72
+70
+70
+73
+71
+70
+71
+70
+70
+70
+71
+71
+71
+81
+81
+80
+73
+71
+70
+71
+68
+71
+73
+71
+71
+80
+71
+68
+68
+83
+71
+71
+69
+72
+71
+71
+76
+68
+74
+73
+76
+74
+73
+71
+71
+71
+71
+81
+70
+70
+70
+71
+72
+72
+68
+80
+74
+72
+72
+73
+74
+71
+71
+77
+72
+72
+67
+74
+70
+73
+74
+72
+74
+72
+74
+73
+72
+81
+70
+69
+69
+73
+72
+76
+74
+75
+68
+72
+74
+74
+68
+73
+74
+72
+71
+73
+74
+71
+69
+81
+71
+71
+73
+72
+75
+81
+72
+68
+71
+72
+74
+72
+72
+69
+68
+71
+74
+74
+69
+71
+72
+72
+72
+72
+72
+75
+73
+68
+71
+73
+77
+69
+73
+73
+70
+73
+72
+73
+72
+73
+67
+68
+72
+82
+74
+72
+73
+76
+78
+72
+73
+73
+70
+74
+70
+72
+71
+74
+73
+72
+77
+73
+72
+73
+70
+71
+71
+74
+75
+74
+70
+73
+74
+72
+71
+73
+69
+73
+71
+74
+73
+77
+71
+72
+72
+72
+69
+72
+72
+72
+81
+72
+70
+73
+73
+68
+73
+75
+74
+67
+68
+69
+69
+73
+73
+72
+69
+73
+82
+73
+69
+74
+74
+73
+70
+73
+71
+83
+73
+74
+77
+73
+77
+73
+71
+71
+74
+81
+71
+74
+68
+72
+73
+71
+73
+76
+70
+72
+73
+72
+72
+68
+74
+69
+72
+72
+72
+71
+73
+72
+73
+74
+74
+71
+69
+73
+75
+72
+76
+70
+72
+68
+68
+72
+74
+73
+72
+69
+73
+68
+73
+73
+72
+77
+72
+69
+72
+76
+74
+71
+74
+70
+82
+75
+72
+81
+72
+73
+72
+69
+68
+71
+72
+72
+71
+70
+69
+67
+82
+72
+71
+68
+71
+75
+72
+71
+72
+68
+68
+81
+72
+72
+72
+69
+69
+73
+72
+82
+83
+72
+71
+67
+81
+70
+72
+67
+67
+73
+72
+73
+72
+73
+71
+68
+72
+73
+74
+69
+74
+75
+74
+70
+70
+72
+75
+72
+71
+74
+68
+74
+74
+68
+71
+72
+73
+72
+72
+74
+75
+71
+72
+72
+74
+73
+73
+71
+75
+72
+71
+73
+72
+69
+72
+72
+71
+69
+72
+80
+72
+69
+75
+71
+73
+73
+72
+72
+76
+73
+72
+72
+75
+72
+71
+72
+75
+75
+75
+77
+76
+73
+74
+74
+73
+72
+72
+72
+69
+76
+72
+73
+71
+73
+73

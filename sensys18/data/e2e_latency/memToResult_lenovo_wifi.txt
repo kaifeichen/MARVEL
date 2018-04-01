@@ -1,876 +1,811 @@
-03-29 14:33:10.216 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 339
-    debug case 3 offload
-    litong626
-    debug3 1
-03-29 14:33:10.481 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:33:10.830 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:33:11.132 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:33:11.460 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:11.804 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:33:12.130 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:33:12.490 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:33:12.796 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 250
-03-29 14:33:13.136 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:33:13.503 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:33:13.827 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:33:14.158 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:33:14.492 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:33:14.844 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:33:15.171 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:33:15.483 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:33:15.809 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:33:16.153 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:33:16.499 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:33:16.819 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:33:17.186 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:33:17.499 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:33:17.852 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:33:18.171 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:33:18.477 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:33:18.805 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 248
-03-29 14:33:19.141 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 251
-03-29 14:33:19.507 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:33:19.841 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:33:20.178 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:33:20.510 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 283
-03-29 14:33:20.822 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:33:21.143 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 249
-03-29 14:33:21.477 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 248
-03-29 14:33:21.811 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 247
-03-29 14:33:22.171 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:33:22.492 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:22.824 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 258
-03-29 14:33:23.134 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 243
-03-29 14:33:23.484 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:33:23.829 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:33:24.183 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:33:24.492 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:33:24.836 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:33:25.192 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:33:25.492 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:33:25.823 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:26.192 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:33:26.509 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:33:26.832 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:27.157 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:33:27.495 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:33:27.827 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:33:28.172 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:33:28.494 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:33:28.850 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:33:29.130 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 235
-03-29 14:33:29.468 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 220
-03-29 14:33:29.805 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 235
-03-29 14:33:30.165 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:33:30.552 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 319
-03-29 14:33:30.832 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:31.170 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:33:31.446 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 215
-03-29 14:33:31.836 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:33:32.204 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-    ImageReader.OnImageAvailableListener
-03-29 14:33:32.493 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 256
-03-29 14:33:32.836 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:33.189 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:33:33.503 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:33:33.804 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 230
-03-29 14:33:34.177 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:33:34.459 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 219
-03-29 14:33:34.793 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 220
-03-29 14:33:35.161 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:35.480 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 239
-03-29 14:33:35.836 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:33:36.168 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:33:36.506 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:33:36.832 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 244
-03-29 14:33:37.170 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:33:37.502 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 246
-03-29 14:33:37.849 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:33:38.178 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:33:38.512 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:33:38.825 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 233
-03-29 14:33:39.173 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 248
-03-29 14:33:39.524 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:33:39.839 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 246
-03-29 14:33:40.173 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:33:40.511 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 249
-03-29 14:33:40.844 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 250
-03-29 14:33:41.185 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:41.521 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:33:41.851 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 256
-03-29 14:33:42.179 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 249
-03-29 14:33:42.523 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:33:42.881 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:33:43.217 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:33:43.527 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:43.882 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:33:44.208 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 283
-03-29 14:33:44.544 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:33:44.857 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:33:45.185 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:33:45.531 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:33:45.892 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:33:46.190 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:33:46.534 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-03-29 14:33:46.861 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:33:47.224 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:33:47.560 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:33:47.890 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:33:48.210 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:33:48.561 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-    ImageReader.OnImageAvailableListener
-03-29 14:33:48.870 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:33:49.230 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:33:49.530 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:33:49.848 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 248
-03-29 14:33:50.192 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:33:50.532 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:33:50.880 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:33:51.187 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:51.554 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:33:51.853 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 251
-03-29 14:33:52.187 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:52.534 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:33:52.876 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:33:53.198 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:53.557 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:33:53.905 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:33:54.192 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:33:54.542 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:33:54.906 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:33:55.232 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:33:55.572 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:33:55.855 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 249
-03-29 14:33:56.200 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 256
-03-29 14:33:56.556 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:33:56.899 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:33:57.235 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:33:57.534 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:57.903 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:33:58.205 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:33:58.570 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:33:58.886 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:33:59.238 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:33:59.539 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 250
-03-29 14:33:59.917 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:34:00.243 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:00.541 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:34:00.909 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:34:01.243 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:01.578 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:01.894 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:02.230 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:02.585 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:02.914 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:03.248 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:03.592 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:34:03.885 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:34:04.218 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:34:04.584 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:04.922 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:05.238 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:05.571 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:34:05.923 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:34:06.234 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:06.569 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:34:06.890 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:34:07.225 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:34:07.599 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:34:07.927 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:34:08.207 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 246
-03-29 14:34:08.598 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:34:08.846 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 214
-03-29 14:34:09.237 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 273
-03-29 14:34:09.572 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:34:09.893 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:34:10.240 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:34:10.576 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:10.900 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-    ImageReader.OnImageAvailableListener
-03-29 14:34:11.252 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:34:11.575 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-03-29 14:34:11.890 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:34:12.243 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:12.588 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:12.899 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:34:13.240 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:13.581 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:13.933 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:34:14.237 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:34:14.608 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:34:14.929 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:34:15.240 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:34:15.582 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:15.930 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:34:16.248 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-03-29 14:34:16.565 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 253
-03-29 14:34:16.904 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:34:17.255 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:17.588 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:17.906 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:34:18.247 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:34:18.584 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:18.939 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:19.279 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:19.606 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:19.940 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:34:20.242 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:34:20.645 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 327
-03-29 14:34:20.922 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:34:21.258 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 273
-03-29 14:34:21.618 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:34:21.945 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:22.279 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:22.616 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:22.947 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:34:23.282 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:23.592 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:34:23.894 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 240
-03-29 14:34:24.289 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:34:24.620 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:24.960 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:34:25.293 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:34:25.623 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:34:25.938 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:34:26.291 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:26.600 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:26.958 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:34:27.294 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-    ImageReader.OnImageAvailableListener
-03-29 14:34:27.606 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:27.942 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:34:28.272 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:34:28.622 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:28.963 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:34:29.280 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:34:29.586 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 255
-03-29 14:34:29.950 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:30.305 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:34:30.639 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:34:30.967 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:34:31.255 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 252
-03-29 14:34:31.646 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:34:31.939 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 268
-03-29 14:34:32.274 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:34:32.634 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:32.956 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:34:33.306 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:33.653 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:34:33.936 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:34:34.298 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:34.628 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:34:34.953 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:34:35.286 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:34:35.618 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:35.964 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:36.289 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:34:36.592 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 248
-03-29 14:34:36.966 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:34:37.334 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 321
-03-29 14:34:37.622 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:37.968 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:38.271 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 256
-03-29 14:34:38.628 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:34:38.990 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:34:39.311 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:34:39.629 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:34:39.974 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:34:40.308 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:40.657 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:34:40.982 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:34:41.313 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:34:41.645 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:34:41.979 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:42.369 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 336
-    debug case 3 offload
-    litong626
-    debug3 1
-03-29 14:34:42.647 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:42.991 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:34:43.319 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:34:43.650 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:34:43.965 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:34:44.302 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:34:44.664 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-03-29 14:34:44.953 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:34:45.320 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:34:45.654 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:34:45.993 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-    ImageReader.OnImageAvailableListener
-03-29 14:34:46.305 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:34:46.625 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:34:46.997 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-    ImageReader.OnImageAvailableListener
-03-29 14:34:47.359 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:34:47.632 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:47.996 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:48.328 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:48.646 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:48.997 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:34:49.282 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 250
-03-29 14:34:49.666 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:34:49.982 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:34:50.323 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:34:50.633 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:34:50.962 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 256
-03-29 14:34:51.303 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:51.623 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 252
-03-29 14:34:51.967 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 260
-03-29 14:34:52.316 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:52.679 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:34:53.017 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 311
-03-29 14:34:53.302 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:34:53.692 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:34:53.983 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:34:54.293 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 253
-03-29 14:34:54.635 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 258
-03-29 14:34:54.976 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:34:55.313 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:34:55.677 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:34:55.988 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:34:56.331 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:34:56.638 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:34:57.003 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:34:57.336 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:34:57.635 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:34:57.957 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 243
-03-29 14:34:58.340 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:34:58.652 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:34:59.019 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:34:59.324 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:34:59.643 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:35:00.019 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:00.342 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:35:00.681 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:35:00.986 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:35:01.331 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:35:01.647 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:35:02.015 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:35:02.364 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:02.686 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:35:03.022 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:03.383 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-03-29 14:35:03.684 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:35:04.018 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:35:04.371 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 310
-03-29 14:35:04.687 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:35:05.021 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:35:05.369 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:35:05.702 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:35:06.004 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:35:06.345 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:35:06.693 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:35:07.007 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:35:07.378 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 312
-03-29 14:35:07.677 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:35:08.062 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:35:08.396 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 320
-03-29 14:35:08.702 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:35:09.033 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:35:09.367 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:09.700 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:10.030 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:35:10.345 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:35:10.703 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:35:11.044 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:35:11.359 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:11.679 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:35:12.012 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:35:12.376 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-    ImageReader.OnImageAvailableListener
-03-29 14:35:12.724 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 317
-03-29 14:35:13.035 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:35:13.345 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-    ImageReader.OnImageAvailableListener
-03-29 14:35:13.693 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:35:14.014 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:35:14.387 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:14.744 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 336
-    ImageReader.OnImageAvailableListener
-03-29 14:35:15.046 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:15.380 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:35:15.708 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:35:16.018 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:35:16.366 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:35:16.725 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 310
-03-29 14:35:17.033 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:35:17.380 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:17.716 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:17.985 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 234
-03-29 14:35:18.371 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:18.728 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:35:19.006 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 258
-03-29 14:35:19.353 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:35:19.728 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:35:20.056 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:35:20.376 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:20.743 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 312
-03-29 14:35:21.044 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:35:21.359 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-    ImageReader.OnImageAvailableListener
-03-29 14:35:21.736 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 313
-03-29 14:35:22.080 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 321
-03-29 14:35:22.389 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:22.749 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:35:23.085 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-03-29 14:35:23.390 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:35:23.698 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:35:24.052 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:35:24.402 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:35:24.706 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:35:25.067 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:25.426 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 331
-    ImageReader.OnImageAvailableListener
-03-29 14:35:25.723 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:35:26.057 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:35:26.394 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:26.726 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:35:27.061 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:35:27.394 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:35:27.727 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:35:28.064 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:28.366 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-    ImageReader.OnImageAvailableListener
-03-29 14:35:28.732 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:29.055 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:35:29.402 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:35:29.744 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:35:30.064 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:35:30.368 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:35:30.685 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 247
-03-29 14:35:31.050 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:35:31.369 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:35:31.738 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-    ImageReader.OnImageAvailableListener
-03-29 14:35:32.105 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 331
-03-29 14:35:32.415 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:35:32.723 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:35:33.067 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:35:33.404 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:35:33.744 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:34.073 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 296
-03-29 14:35:34.362 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:35:34.763 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:35:35.043 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:35:35.432 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 318
-03-29 14:35:35.731 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:35:36.068 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:36.400 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:35:36.739 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:37.070 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:37.403 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:35:37.770 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 320
-03-29 14:35:38.070 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:38.391 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 273
-03-29 14:35:38.774 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 319
-03-29 14:35:39.072 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:35:39.407 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:39.745 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:40.075 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:35:40.394 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:35:40.713 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 254
-03-29 14:35:41.045 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:35:41.389 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:35:41.781 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 323
-03-29 14:35:42.081 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:35:42.414 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:35:42.748 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:35:43.049 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 257
-03-29 14:35:43.432 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:35:43.765 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-03-29 14:35:44.086 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:35:44.415 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:35:44.756 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:45.093 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:45.484 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 353
-03-29 14:35:45.761 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-    ImageReader.OnImageAvailableListener
-03-29 14:35:46.090 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:35:46.431 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:46.765 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:47.097 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:47.442 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:35:47.772 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:35:48.112 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 312
-03-29 14:35:48.422 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:35:48.734 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-    ImageReader.OnImageAvailableListener
-03-29 14:35:49.099 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-    ImageReader.OnImageAvailableListener
-03-29 14:35:49.446 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 310
-03-29 14:35:49.779 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-    ImageReader.OnImageAvailableListener
-03-29 14:35:50.081 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:35:50.468 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 329
-    ImageReader.OnImageAvailableListener
+339
+280
+296
+267
+261
+272
+263
+284
+250
+265
+295
+278
+276
+285
+300
+299
+275
+267
+277
+288
+275
+298
+287
+301
+292
+267
+248
+251
+282
+280
+284
+283
+260
+249
+248
+247
+275
+261
+258
+243
+263
+263
+292
+267
+277
+295
+266
+261
+302
+282
+261
+266
+255
+263
+276
+264
+287
+235
+220
+235
+266
+319
+254
+266
+215
+270
+300
+256
+261
+281
+267
+230
+275
+219
+220
+254
+239
+259
+257
+262
+244
+260
+246
+260
+268
+255
+233
+248
+263
+246
+257
+249
+250
+254
+257
+256
+249
+257
+281
+284
+261
+291
+283
+284
+264
+259
+269
+298
+260
+271
+266
+296
+295
+282
+280
+294
+272
+298
+264
+248
+259
+262
+277
+254
+285
+251
+254
+260
+270
+261
+281
+299
+255
+268
+297
+291
+285
+249
+256
+281
+287
+290
+254
+280
+254
+291
+261
+282
+250
+297
+280
+261
+290
+287
+292
+274
+275
+296
+292
+296
+301
+262
+259
+292
+291
+280
+281
+300
+274
+278
+264
+259
+303
+294
+246
+299
+214
+273
+270
+259
+272
+274
+264
+282
+271
+254
+268
+280
+260
+268
+275
+293
+262
+298
+288
+263
+274
+286
+271
+253
+255
+275
+275
+255
+265
+268
+291
+292
+287
+288
+257
+327
+270
+273
+299
+291
+280
+292
+295
+296
+269
+240
+294
+292
+300
+300
+299
+276
+292
+275
+294
+298
+275
+277
+270
+287
+294
+276
+255
+280
+302
+302
+297
+252
+309
+268
+269
+292
+285
+296
+315
+260
+287
+284
+277
+278
+275
+287
+277
+248
+286
+321
+275
+287
+256
+278
+306
+293
+267
+287
+292
+307
+295
+290
+281
+291
+336
+291
+303
+295
+293
+272
+275
+305
+261
+293
+293
+294
+276
+263
+301
+328
+268
+296
+292
+280
+298
+250
+296
+280
+288
+267
+256
+268
+252
+260
+274
+302
+311
+261
+315
+274
+253
+258
+268
+270
+298
+277
+289
+262
+278
+288
+257
+243
+291
+269
+292
+272
+257
+301
+279
+295
+264
+277
+259
+292
+298
+296
+300
+330
+296
+292
+310
+282
+291
+309
+307
+275
+282
+295
+277
+312
+279
+328
+320
+299
+299
+300
+298
+294
+276
+299
+307
+288
+270
+272
+305
+317
+293
+271
+287
+272
+301
+336
+300
+302
+297
+270
+287
+310
+289
+301
+290
+234
+290
+306
+258
+264
+309
+304
+288
+312
+279
+271
+313
+321
+298
+328
+330
+302
+275
+291
+307
+279
+298
+331
+295
+292
+298
+297
+295
+296
+292
+301
+266
+298
+287
+302
+309
+295
+265
+247
+279
+264
+299
+331
+307
+281
+294
+296
+301
+296
+254
+315
+265
+318
+285
+288
+286
+290
+288
+286
+320
+290
+273
+319
+277
+288
+290
+291
+272
+254
+259
+266
+323
+291
+291
+280
+257
+302
+305
+293
+288
+298
+300
+353
+289
+294
+300
+300
+300
+309
+306
+312
+278
+267
+301
+310
+309
+281
+329
     imgToMem = 68
-03-29 14:35:50.754 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:35:51.109 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:35:51.437 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:51.790 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:35:52.135 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 327
-03-29 14:35:52.441 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:52.792 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 318
-03-29 14:35:53.114 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-03-29 14:35:53.415 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:35:53.781 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-    ImageReader.OnImageAvailableListener
-03-29 14:35:54.095 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:35:54.434 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:35:54.796 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 318
-03-29 14:35:55.063 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 251
-03-29 14:35:55.444 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:35:55.780 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:56.114 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-    ImageReader.OnImageAvailableListener
-03-29 14:35:56.446 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:35:56.780 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:35:57.122 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:35:57.448 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:35:57.792 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:35:58.131 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 314
-03-29 14:35:58.440 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:35:58.783 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-    ImageReader.OnImageAvailableListener
-03-29 14:35:59.109 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:35:59.474 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 324
-03-29 14:35:59.786 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-    ImageReader.OnImageAvailableListener
-03-29 14:36:00.115 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:36:00.460 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:36:00.810 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 323
-03-29 14:36:01.146 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 324
-03-29 14:36:01.455 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:36:01.787 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:36:02.121 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-    ImageReader.OnImageAvailableListener
-03-29 14:36:02.485 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 326
-03-29 14:36:02.786 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:03.130 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:03.456 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:03.804 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 311
-03-29 14:36:04.125 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:36:04.454 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:36:04.830 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 337
-    ImageReader.OnImageAvailableListener
+285
+303
+298
+315
+327
+300
+318
+305
+272
+304
+285
+293
+318
+251
+296
+300
+300
+298
+300
+297
+301
+309
+314
+289
+297
+290
+324
+299
+295
+306
+323
+324
+298
+300
+298
+326
+292
+304
+296
+311
+286
+295
+337
     imgToMem = 72
-03-29 14:36:05.155 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 325
-03-29 14:36:05.458 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:05.859 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 364
-03-29 14:36:06.492 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 324
-03-29 14:36:06.794 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:07.101 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:36:07.495 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:36:07.802 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-    ImageReader.OnImageAvailableListener
-03-29 14:36:08.163 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 327
-03-29 14:36:08.454 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:36:08.805 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 306
-03-29 14:36:09.148 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 311
-03-29 14:36:09.446 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:36:09.803 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:36:10.125 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:36:10.468 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:10.816 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:36:11.139 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:11.463 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:36:11.811 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:36:12.154 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 313
-03-29 14:36:12.470 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:12.859 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 351
-03-29 14:36:13.476 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:13.802 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:14.134 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 289
-03-29 14:36:14.479 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:14.817 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:36:15.124 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:36:15.462 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:36:15.808 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:36:16.180 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 332
-03-29 14:36:16.481 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 299
-03-29 14:36:16.803 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:36:17.179 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-03-29 14:36:17.506 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:17.839 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 323
-03-29 14:36:18.140 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 279
-03-29 14:36:18.491 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:18.850 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 331
-03-29 14:36:19.148 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:36:19.488 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:36:19.820 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:20.144 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:36:20.493 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:20.878 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 355
-03-29 14:36:21.496 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-03-29 14:36:21.847 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:22.165 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:36:22.515 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 324
-03-29 14:36:22.883 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 348
-03-29 14:36:23.495 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:36:23.852 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 324
-03-29 14:36:24.158 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-    ImageReader.OnImageAvailableListener
-03-29 14:36:24.521 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 329
-03-29 14:36:24.822 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:25.166 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:36:25.491 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:25.836 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-    ImageReader.OnImageAvailableListener
-03-29 14:36:26.160 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:26.463 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:36:26.805 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-03-29 14:36:27.128 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:36:27.465 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:36:27.827 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:28.168 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:28.474 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-03-29 14:36:28.807 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:36:29.143 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:36:29.471 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:36:29.841 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-    ImageReader.OnImageAvailableListener
-03-29 14:36:30.114 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 241
-03-29 14:36:30.469 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:36:30.838 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:31.161 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:36:31.455 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 250
-03-29 14:36:31.852 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:36:32.151 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:36:32.495 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:36:32.810 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 266
-03-29 14:36:33.174 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:36:33.480 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:36:33.808 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:36:34.208 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 327
-03-29 14:36:34.530 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 312
-03-29 14:36:34.831 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:36:35.184 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:36:35.498 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:36:35.819 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:36:36.188 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 308
-03-29 14:36:36.510 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:36:36.869 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:36:37.185 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:36:37.514 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:37.840 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:36:38.205 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 316
-03-29 14:36:38.488 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:36:38.880 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 323
-03-29 14:36:39.186 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:39.515 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:36:39.834 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:36:40.211 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:40.499 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 267
-03-29 14:36:40.846 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:36:41.182 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:36:41.513 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:41.855 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:42.183 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:42.501 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:36:42.900 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 339
-03-29 14:36:43.219 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:36:43.557 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 329
-03-29 14:36:43.870 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:36:44.190 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:36:44.538 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 308
-03-29 14:36:44.895 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 334
-03-29 14:36:45.189 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:36:45.528 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-    ImageReader.OnImageAvailableListener
-03-29 14:36:45.858 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:36:46.231 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 332
-03-29 14:36:46.559 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 325
-03-29 14:36:46.871 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:47.207 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 310
-03-29 14:36:47.562 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 327
-03-29 14:36:47.922 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 355
-    debug case 3 offload
-    litong626
-    debug3 1
-03-29 14:36:48.203 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:48.567 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 331
-03-29 14:36:48.905 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 335
-03-29 14:36:49.180 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 269
-03-29 14:36:49.539 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:49.869 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-    ImageReader.OnImageAvailableListener
-03-29 14:36:50.176 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 271
-    ImageReader.OnImageAvailableListener
-03-29 14:36:50.570 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 329
-03-29 14:36:50.870 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:51.191 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:36:51.543 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-    ImageReader.OnImageAvailableListener
-03-29 14:36:51.917 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 341
-    debug case 3 offload
-    litong626
-    debug3 1
-    litong626.3  offload on other thread
-03-29 14:36:52.198 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:52.545 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:36:52.873 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:36:53.228 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 316
-03-29 14:36:53.544 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:36:53.881 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:36:54.212 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:36:54.554 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:36:54.873 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:55.258 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 342
-    debug case 3 offload
-    litong626
-    debug3 1
-    litong626.3  offload on other thread
-03-29 14:36:55.568 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:55.886 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:36:56.202 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:36:56.526 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 277
-03-29 14:36:56.888 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 307
-03-29 14:36:57.217 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:36:57.573 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:57.905 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 315
-03-29 14:36:58.241 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:36:58.575 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 321
-03-29 14:36:58.876 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:36:59.243 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 321
-03-29 14:36:59.542 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:36:59.891 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:00.169 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 246
-03-29 14:37:00.514 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 259
-03-29 14:37:00.881 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:01.159 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 237
-03-29 14:37:01.551 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:37:01.857 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 268
-03-29 14:37:02.231 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:37:02.570 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 305
-03-29 14:37:02.851 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 258
-03-29 14:37:03.220 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:37:03.552 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:03.897 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:04.226 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 285
-03-29 14:37:04.538 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:37:04.874 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:37:05.229 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 294
-03-29 14:37:05.572 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:37:05.892 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:06.229 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-    ImageReader.OnImageAvailableListener
-03-29 14:37:06.571 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:37:06.907 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:37:07.231 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:37:07.566 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:07.933 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-03-29 14:37:08.248 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:37:08.568 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-    ImageReader.OnImageAvailableListener
-03-29 14:37:08.911 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:37:09.233 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:37:09.619 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 345
-    debug case 3 offload
-    litong626
-    debug3 1
-03-29 14:37:09.936 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:37:10.270 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-03-29 14:37:10.592 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 318
-03-29 14:37:10.894 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:37:11.234 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:37:11.551 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:37:11.857 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 252
-03-29 14:37:12.208 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:37:12.561 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 283
-03-29 14:37:12.903 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:37:13.241 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:37:13.611 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 336
-03-29 14:37:13.912 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:37:14.250 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:37:14.613 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 330
-    ImageReader.OnImageAvailableListener
-03-29 14:37:14.936 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 322
-03-29 14:37:15.232 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:37:15.591 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 312
-03-29 14:37:15.904 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 287
-03-29 14:37:16.237 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 284
-03-29 14:37:16.616 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 331
-03-29 14:37:16.912 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:17.257 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:37:17.558 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 276
-03-29 14:37:17.905 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:37:18.249 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:37:18.599 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 313
-03-29 14:37:18.943 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 323
-03-29 14:37:19.249 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:37:19.579 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:19.928 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:37:20.256 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-03-29 14:37:20.586 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:37:20.913 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:21.246 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:21.584 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:37:21.921 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:37:22.256 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:37:22.585 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:22.919 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:37:23.260 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 288
-03-29 14:37:23.592 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 299
-03-29 14:37:23.920 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:24.254 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:24.605 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 306
-03-29 14:37:24.898 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 265
-03-29 14:37:25.265 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:37:25.608 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 308
-03-29 14:37:25.912 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:37:26.271 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:37:26.595 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 292
-03-29 14:37:26.931 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:37:27.274 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 304
-03-29 14:37:27.565 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:37:27.966 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 328
-03-29 14:37:28.234 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 261
-03-29 14:37:28.600 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-03-29 14:37:28.934 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:37:29.252 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 280
-03-29 14:37:29.609 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 302
-    ImageReader.OnImageAvailableListener
-03-29 14:37:29.943 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 303
-03-29 14:37:30.251 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 278
-03-29 14:37:30.607 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:37:30.910 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 270
-03-29 14:37:31.277 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 301
-03-29 14:37:31.618 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: ImageReader.OnImageAvailableListener
-    memToResult = 310
-03-29 14:37:31.940 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 297
-    ImageReader.OnImageAvailableListener
-03-29 14:37:32.275 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 298
-03-29 14:37:32.595 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:37:32.931 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 286
-03-29 14:37:33.252 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:37:33.586 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 273
-03-29 14:37:33.999 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 351
-03-29 14:37:34.292 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 309
-03-29 14:37:34.598 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 281
-03-29 14:37:34.913 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 262
-03-29 14:37:35.207 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 227
-03-29 14:37:35.586 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 272
-03-29 14:37:35.912 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 263
-03-29 14:37:36.269 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 282
-03-29 14:37:36.615 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 294
-03-29 14:37:36.924 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:37:37.257 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 274
-03-29 14:37:37.684 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 360
-03-29 14:37:38.280 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 293
-03-29 14:37:38.618 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:37:38.929 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 275
-03-29 14:37:39.281 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 295
-03-29 14:37:39.623 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 300
-03-29 14:37:39.953 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 296
-03-29 14:37:40.279 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 289
-03-29 14:37:40.588 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 264
-03-29 14:37:40.950 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 291
-03-29 14:37:41.283 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-03-29 14:37:41.615 14155-14155/edu.berkeley.cs.sdb.cellmate I/System.out: memToResult = 290
-
+325
+297
+364
+324
+297
+269
+328
+301
+327
+288
+306
+311
+276
+300
+287
+299
+309
+297
+291
+301
+313
+292
+351
+296
+292
+289
+299
+307
+281
+281
+293
+332
+299
+288
+330
+322
+323
+279
+304
+331
+291
+301
+299
+290
+304
+355
+305
+322
+306
+324
+348
+298
+324
+297
+329
+292
+306
+296
+301
+296
+265
+271
+262
+262
+292
+297
+271
+268
+269
+262
+303
+241
+264
+297
+289
+250
+309
+276
+281
+266
+297
+270
+263
+327
+312
+285
+303
+285
+270
+308
+293
+309
+298
+296
+286
+316
+269
+323
+299
+294
+280
+322
+267
+288
+291
+292
+296
+292
+278
+339
+315
+329
+300
+295
+308
+334
+282
+298
+293
+332
+325
+304
+310
+327
+355
+299
+331
+335
+269
+304
+300
+271
+329
+296
+284
+304
+341
+292
+301
+296
+316
+298
+306
+302
+309
+292
+342
+322
+304
+288
+277
+307
+299
+322
+315
+322
+321
+292
+321
+290
+292
+246
+259
+292
+237
+291
+268
+302
+305
+258
+291
+289
+289
+285
+274
+280
+294
+296
+292
+299
+300
+306
+295
+292
+330
+309
+298
+303
+295
+345
+328
+330
+318
+287
+291
+276
+252
+264
+283
+293
+297
+336
+291
+302
+330
+322
+287
+312
+287
+284
+331
+292
+302
+276
+286
+297
+313
+323
+295
+292
+306
+302
+293
+289
+289
+296
+298
+297
+289
+294
+288
+299
+292
+289
+306
+265
+298
+308
+282
+303
+292
+297
+304
+263
+328
+261
+297
+298
+280
+302
+303
+278
+293
+270
+301
+310
+297
+298
+282
+286
+274
+273
+351
+309
+281
+262
+227
+272
+263
+282
+294
+274
+274
+360
+293
+296
+275
+295
+300
+296
+289
+264
+291
+290
+290
