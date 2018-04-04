@@ -1,6 +1,6 @@
 from label_video import *
 import matplotlib.pyplot as plt
-import numpy as snp
+import numpy as np
 import sys
 
 video_file = sys.argv[1]
@@ -24,7 +24,9 @@ fig = plt.figure(figsize=(6, 5))
 #for i in range(7):
 #    plt.plot(datas[i], label=str(i))
 
-plt.boxplot(datas)
+x= np.arange(0.5,7.5)
+plt.bar(x,[np.mean(data) for data in datas], align='center', alpha=0.5)
+plt.xticks(x,('1','2', '3', '4', '5', '6', '7'))
 print(12345)
 print(len(datas[0]))
 print(len(datas[2]))
@@ -35,9 +37,10 @@ print(len(datas[6]))
 #plt.boxplot(datas, whis = 'range')
 plt.tick_params(axis='both', which='major', labelsize=20)
 plt.xlabel("Number of Images Offloaded", fontsize=22)
-plt.ylabel("Error (pixel)", fontsize=22)
+plt.ylabel("Average Error (pixel)", fontsize=22)
 plt.grid()
+plt.ylim(ymax=60)
 plt.legend(loc="upper right", fontsize=14)
-plt.savefig("cali.pdf", bbox_inches='tight')
+plt.savefig("mul_img_err.pdf", bbox_inches='tight')
 plt.tight_layout()
 plt.show()

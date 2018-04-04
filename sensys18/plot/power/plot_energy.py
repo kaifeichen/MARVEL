@@ -63,18 +63,35 @@ plt.plot(translate_data, 'r-', label = "rotate12.csv", linewidth=2)
 #plot_cdf(local_data, 'y-', "RTABMap", linewidth=2)
 '''
 
-fig = plt.figure(figsize=(12, 5))
+#fig = plt.figure(figsize=(12, 5))
 #fig, ax = plt.subplots()
-x = np.arange(0.5,5.5)
+#x = np.arange(0.5,5.5)
 avgError = [avg(nothing_data), avg(still_data), avg(rotate_data), avg(translate_data), avg(offof_data)]
-plt.bar(x, avgError, align='center', alpha=0.5)
-plt.xticks(x, ('Idle', 'Static', 'Rotation', 'Translation', 'Continuous'))#, fontsize=18)
+#plt.bar(x, avgError, align='center', alpha=0.5)
+#plt.xticks(x, ('Idle', 'Static', 'Rotation', 'Translation', 'Continuous'))#, fontsize=18)
 
+fig, ax1 = plt.subplots(figsize=(12, 5))
+t = np.arange(0.5, 5.5)
+s1 = avgError
+ax1.bar(t, avgError, align='center', alpha=0.5)
+# Make the y-axis label, ticks and tick labels match the line color.
+ax1.set_ylabel("Average Power Usage (Watt)", fontsize=22)
+ax1.tick_params(axis='both', which='major', labelsize=20)
+ax2 = ax1.twinx()
+s2 = [4.050*3.8/x for x in avgError]
+ax2.plot(t, s2, "ro")
+ax2.set_ylim([0,20])
+ax2.set_ylabel('Battery Length (hour)', fontsize=22)
+ax2.set_xticks(t)
+ax2.set_xticklabels(('Idle', 'Static', 'Rotation', 'Translation', 'Continuous'))
+ax2.tick_params(axis='both', which='major', labelsize=20)
+'''
 plt.legend(loc="upper left")
 plt.ylabel("Average Power Usage (Watt)", fontsize=22)
 plt.grid()
 plt.tick_params(axis='both', which='major', labelsize=20)
 plt.savefig("eval_power.pdf", bbox_inches='tight')
 plt.tight_layout()
-#plt.show()
+'''
+plt.show()
 
