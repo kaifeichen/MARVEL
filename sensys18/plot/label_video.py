@@ -101,21 +101,21 @@ class Labeler(object):
         print ""
     
     def _compute_flows(self):
-        feature_params = dict(maxCorners = 500,
-                              qualityLevel = 0.3,
+        feature_params = dict(maxCorners = 200,
+                              qualityLevel = 0.05,
                               minDistance = 7,
                               blockSize = 7)
-        lk_params = dict(winSize  = (15,15),
-                         maxLevel = 2,
-                         criteria = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
+        lk_params = dict(winSize  = (21,21),
+                         maxLevel = 3,
+                         criteria = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 30, 0.01))
 
         t0 = time.time()
         for i in range(len(self._frames) - 1):
             prev_gray = self._frames_small_gray[i]
             next_gray = self._frames_small_gray[i + 1]
-            mask = np.zeros(prev_gray.shape, np.uint8);
-            cv2.rectangle(mask, (0, 0), (360, 590), 255, thickness=-1)
-            p0 = cv2.goodFeaturesToTrack(prev_gray, mask=mask, **feature_params)
+            #mask = np.zeros(prev_gray.shape, np.uint8)
+            #cv2.rectangle(mask, (0, 0), (360, 590), 255, thickness=-1)
+            p0 = cv2.goodFeaturesToTrack(prev_gray, mask=None, **feature_params)
             p1, st, err = cv2.calcOpticalFlowPyrLK(prev_gray, next_gray, p0, None, **lk_params)
             good_old = p0[st==1]
             good_new = p1[st==1]
@@ -144,15 +144,23 @@ class Labeler(object):
             print "updating truth location on frame ", i + 1
             #pairs = list(filter(lambda p: np.linalg.norm(p[0]-np.array((x, y))) < 300, zip(old, new)))
             pairs = zip(old, new)
-            pairs = sorted(pairs, key=lambda p: np.linalg.norm(p[0]-np.array((x, y))), reverse=True)
-            pairs = pairs[:5]
+            pairs = sorted(pairs, key=lambda p: np.linalg.norm(p[0]-np.array((x, y)))) #, reverse=True)
+            #pairs = sorted(pairs, key=lambda p: np.linalg.norm(p[0])) #, reverse=True)
+            #pairs = pairs[:1]
             offsets = []
             if len(pairs) == 0:
                 print "cannot find sufficient optical flow point pairs"
                 break
             for pair in pairs:
                 offsets.append(pair[1] - pair[0])
+                # print pair[1], pair[0], pair[1] - pair[0]
+            #print offsets
             offset = np.mean(offsets, axis=0).astype(int)
+            #percentile = 0.75
+            #index = int(len(pairs)*percentile)
+            #offset = pairs[index][1] - pairs[index][0]
+            #print (x, y), pairs[0][0]
+            #print offset
             self._truth_locs[i + 1][0] = (x + offset[0], y + offset[1])
         write_data(self._truth_locs, "." + self._file_hash + ".truth_locs")
     
