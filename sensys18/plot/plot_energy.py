@@ -28,29 +28,100 @@ def plot_cdf(data, fmt, label, linewidth):
     ecdf = ecdf/ecdf.max()
     plt.plot(bin_edges[1:], ecdf, fmt, label=label, linewidth=linewidth)
 
-path = sys.argv[1]
-prev_times, prev_data = readPower(os.path.join(path, "onlyPreview.csv"))
-imu_times, imu_data = readPower(os.path.join(path, "onlyPreviewAndIMU.csv"))
-of_times, of_data = readPower(os.path.join(path, "onlyPreviewAndOF_YUV.csv"))
-offload_times, offload_data = readPower(os.path.join(path, "onlyPreviewAndOffloading.csv"))
-local_times, local_data = readPower(os.path.join(path, "rtabmap.csv"))
 
-print "prev:", np.mean(prev_data), np.std(prev_data)
-print "imu:", np.mean(imu_data), np.std(imu_data)
-print "of:", np.mean(of_data), np.std(of_data)
-print "offload:", np.mean(offload_data), np.std(offload_data)
-print "local:", np.mean(local_data), np.std(local_data)
+def autolabel(rects, ax, xpos='center'):
+    """
+    Attach a text label above each bar in *rects*, displaying its height.
 
-fig = plt.figure(figsize=(12, 5))
-plot_cdf(prev_data, 'k-', "Preview", linewidth=2)
-plot_cdf(imu_data, 'g-.', "Preview + IMU", linewidth=2)
-plot_cdf(of_data, 'b:', "Preview + Optical Flow", linewidth=2)
-plot_cdf(offload_data, 'r--', "Preview + Offloading", linewidth=2)
-plot_cdf(local_data, 'y-', "RTABMap", linewidth=2)
-plt.legend(loc="lower right")
-plt.xlabel("Power Usage (Watt)", fontsize=22)
-plt.ylabel("CDF", fontsize=22)
-plt.grid()
-plt.savefig("power.pdf", bbox_inches='tight')
+    *xpos* indicates which side to place the text w.r.t. the center of
+    the bar. It can be one of the following {'center', 'right', 'left'}.
+    """
+
+    xpos = xpos.lower()  # normalize the case of the parameter
+    ha = {'center': 'center', 'right': 'left', 'left': 'right'}
+    offset = {'center': 0.5, 'right': 0.57, 'left': 0.43}  # x_txt = x + w*off
+
+    for rect in rects:
+        height = round(rect.get_height(), 2)
+        ax.text(rect.get_x() + rect.get_width()*offset[xpos], 1.01*height,
+                '{}'.format(height), ha=ha[xpos], va='bottom', fontsize=20)
+
+
+low = 30
+# = 750
+
+path_wo_p = sys.argv[-2]
+path_w_p = sys.argv[-1]
+
+_, idle_wo_p = readPower(os.path.join(path_wo_p, "doNothing30.csv"))
+_, offof_wo_p = readPower(os.path.join(path_wo_p, "offof31.csv"))
+_, still_wo_p = readPower(os.path.join(path_wo_p, "still30.csv"))
+_, rotate_wo_p = readPower(os.path.join(path_wo_p, "rotate30.csv"))
+_, translate_wo_p = readPower(os.path.join(path_wo_p, "translate30.csv"))
+
+
+idle_wo_p = np.mean(idle_wo_p[low:])
+offof_wo_p = np.mean(offof_wo_p[low:])
+still_wo_p = np.mean(still_wo_p[low:])
+rotate_wo_p = np.mean(rotate_wo_p[low:])
+translate_wo_p = np.mean(translate_wo_p[low:])
+
+idle_w_p = []
+offof_w_p = []
+still_w_p = []
+rotate_w_p = []
+translate_w_p = []
+for filename in os.listdir(path_w_p):
+    if filename.endswith(".csv"):
+        _, power = readPower(os.path.join(path_w_p, filename))
+        mean_power = np.mean(power[low:])
+        if 'Idle' in filename:
+            idle_w_p.append(mean_power)
+        elif 'Offloading' in filename:
+            offof_w_p.append(mean_power)
+        elif 'Static' in filename:
+            still_w_p.append(mean_power)
+        elif 'Rotating' in filename:
+            rotate_w_p.append(mean_power)
+        elif 'Translating' in filename:
+            translate_w_p.append(mean_power)
+idle_w_p = np.mean(idle_w_p)
+offof_w_p = np.mean(offof_w_p)
+still_w_p = np.mean(still_w_p)
+rotate_w_p = np.mean(rotate_w_p)
+translate_w_p = np.mean(translate_w_p)
+
+#print "nothing:", np.mean(idle_wo_p), np.std(idle_wo_p)
+#print "offloading:", np.mean(offof_wo_p), np.std(offof_wo_p)
+#print "still:", np.mean(still_wo_p), np.std(still_wo_p)
+#print "rotate:", np.mean(rotate_wo_p), np.std(rotate_wo_p)
+#print "translate:", np.mean(translate_wo_p), np.std(translate_wo_p)
+
+data_wo_p = [idle_wo_p, offof_wo_p, still_wo_p, rotate_wo_p, translate_wo_p]
+data_w_p = [idle_w_p, offof_w_p, still_w_p, rotate_w_p, translate_w_p]
+
+fig, ax = plt.subplots(figsize=(12, 5))
+ind = np.arange(5)
+width = 0.35
+labels = ('Idle', 'Baseline', 'MARVEL:\nStatic', 'MARVEL:\nRotation', 'MARVEL:\nTranslation')
+
+rects_wo_p = ax.bar(ind-width/2, data_wo_p, width, color='r', alpha=0.5, label='w/o cam feed')
+rects_w_p = ax.bar(ind+width/2, data_w_p, width, color='y', alpha=0.5, label='w/ cam feed')
+
+ax.set_ylabel("Average Power (Watt)", fontsize=22)
+ax.set_xticks(ind+width/2)
+ax.set_xticklabels(labels, rotation=0, fontsize=18) #, rotation=45)
+ax.tick_params(axis='y', labelsize = 18)
+ax.grid(axis='y')
+ax.set_xlim(xmin=-0.5)
+ax.set_ylim(ymax=2.6)
+
+ax.legend(loc="upper left")
+
+autolabel(rects_wo_p, ax, "center")
+autolabel(rects_w_p, ax, "center")
+
 plt.tight_layout()
-#plt.show()
+
+plt.show()
+
