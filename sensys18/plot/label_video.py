@@ -141,7 +141,7 @@ class Labeler(object):
             if is_next_manual == True: # only use optical flow if next one was not manually labeled
                 print "next frame {0} manually labelled, stop truth location computation".format(i + 1)
                 break
-            print "updating truth location on frame ", i + 1
+            #print "updating truth location on frame ", i + 1
             #pairs = list(filter(lambda p: np.linalg.norm(p[0]-np.array((x, y))) < 300, zip(old, new)))
             pairs = zip(old, new)
             pairs = sorted(pairs, key=lambda p: np.linalg.norm(p[0]-np.array((x, y)))) #, reverse=True)
@@ -167,6 +167,7 @@ class Labeler(object):
     def _on_click(self, event, x, y, flags, param):
         if event == cv2.EVENT_LBUTTONDOWN:
             self._click_pt = (int(x), int(y))
+            print x, y
             self._clicking = True
         elif event == cv2.EVENT_LBUTTONUP and self._clicking == True:
             self._update_truth_locs()

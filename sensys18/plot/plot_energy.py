@@ -114,7 +114,7 @@ ax.set_xticklabels(labels, rotation=0, fontsize=18) #, rotation=45)
 ax.tick_params(axis='y', labelsize = 18)
 ax.grid(axis='y')
 ax.set_xlim(xmin=-0.5)
-ax.set_ylim(ymax=2.6)
+ax.set_ylim(ymax=3.1)
 
 ax.legend(loc="upper left")
 
