@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as snp
 import sys
 
-video_files = sys.argv[1:6]
+video_files = sys.argv[1:8]
 errors = []
 for video_file in video_files:
     file_hash = hashlib.md5(open(video_file, 'rb').read()).hexdigest()
@@ -21,8 +21,8 @@ for video_file in video_files:
 
 print len(errors)
 
-fig = plt.figure(figsize=(6, 5))
-plt.tick_params(axis='both', which='major', labelsize=20)
+fig = plt.figure(figsize=(8, 4))
+plt.tick_params(axis='both', which='major', labelsize=24)
 ax = fig.add_subplot(111)
 plt.boxplot(errors)
 
@@ -30,10 +30,10 @@ plt.boxplot(errors)
 #plt.bar(x, [np.mean(data) for data in errors], align='center', alpha=0.5)
 #plt.xticks(x,('25','50', '75', '100', '200'))
 
-ax.set_xticklabels(('25','50', '75', '100', '200'))
-plt.xlabel(r"$\phi$ Vaule (pixel)", fontsize=22)
-plt.ylabel("Error (pixel)", fontsize=22)
-plt.grid()
+ax.set_xticklabels(('0', '10', '25','50', '75', '100', '200'))
+plt.xlabel(r"Calibration Threshold $\phi$ Vaule (pixel)", fontsize=24)
+plt.ylabel("Error (pixel)", fontsize=24)
+plt.grid(axis='y')
 plt.savefig("eval_phi_err.pdf", bbox_inches='tight')
 plt.tight_layout()
 plt.show()

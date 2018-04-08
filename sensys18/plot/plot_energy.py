@@ -50,21 +50,8 @@ def autolabel(rects, ax, xpos='center'):
 low = 30
 # = 750
 
-path_wo_p = sys.argv[-2]
 path_w_p = sys.argv[-1]
 
-_, idle_wo_p = readPower(os.path.join(path_wo_p, "doNothing30.csv"))
-_, offof_wo_p = readPower(os.path.join(path_wo_p, "offof31.csv"))
-_, still_wo_p = readPower(os.path.join(path_wo_p, "still30.csv"))
-_, rotate_wo_p = readPower(os.path.join(path_wo_p, "rotate30.csv"))
-_, translate_wo_p = readPower(os.path.join(path_wo_p, "translate30.csv"))
-
-
-idle_wo_p = np.mean(idle_wo_p[low:])
-offof_wo_p = np.mean(offof_wo_p[low:])
-still_wo_p = np.mean(still_wo_p[low:])
-rotate_wo_p = np.mean(rotate_wo_p[low:])
-translate_wo_p = np.mean(translate_wo_p[low:])
 
 idle_w_p = []
 offof_w_p = []
@@ -72,6 +59,7 @@ still_w_p = []
 rotate_w_p = []
 translate_w_p = []
 for filename in os.listdir(path_w_p):
+    print filename
     if filename.endswith(".csv"):
         _, power = readPower(os.path.join(path_w_p, filename))
         mean_power = np.mean(power[low:])
@@ -91,34 +79,25 @@ still_w_p = np.mean(still_w_p)
 rotate_w_p = np.mean(rotate_w_p)
 translate_w_p = np.mean(translate_w_p)
 
-#print "nothing:", np.mean(idle_wo_p), np.std(idle_wo_p)
-#print "offloading:", np.mean(offof_wo_p), np.std(offof_wo_p)
-#print "still:", np.mean(still_wo_p), np.std(still_wo_p)
-#print "rotate:", np.mean(rotate_wo_p), np.std(rotate_wo_p)
-#print "translate:", np.mean(translate_wo_p), np.std(translate_wo_p)
-
-data_wo_p = [idle_wo_p, offof_wo_p, still_wo_p, rotate_wo_p, translate_wo_p]
 data_w_p = [idle_w_p, offof_w_p, still_w_p, rotate_w_p, translate_w_p]
 
-fig, ax = plt.subplots(figsize=(12, 5))
+fig, ax = plt.subplots(figsize=(8, 4))
 ind = np.arange(5)
-width = 0.35
+width = 0.5
 labels = ('Idle', 'Baseline', 'MARVEL:\nStatic', 'MARVEL:\nRotation', 'MARVEL:\nTranslation')
 
-rects_wo_p = ax.bar(ind-width/2, data_wo_p, width, color='r', alpha=0.5, label='w/o cam feed')
-rects_w_p = ax.bar(ind+width/2, data_w_p, width, color='y', alpha=0.5, label='w/ cam feed')
+rects_w_p = ax.bar(ind, data_w_p, width, alpha=0.5)#, label='w/ cam feed')
 
 ax.set_ylabel("Average Power (Watt)", fontsize=22)
 ax.set_xticks(ind+width/2)
 ax.set_xticklabels(labels, rotation=0, fontsize=18) #, rotation=45)
 ax.tick_params(axis='y', labelsize = 18)
 ax.grid(axis='y')
-ax.set_xlim(xmin=-0.5)
-ax.set_ylim(ymax=3.1)
+ax.set_xlim(xmin=-0.3, xmax=max(ind)+width+0.3)
+#ax.set_ylim(ymax=3.1)
 
-ax.legend(loc="upper left")
+#ax.legend(loc="upper left")
 
-autolabel(rects_wo_p, ax, "center")
 autolabel(rects_w_p, ax, "center")
 
 plt.tight_layout()

@@ -13,6 +13,7 @@ corrected = []
 imu = []
 of = []
 for a, b in zip(truth_locs, labels):
+    print a, b
     if any(x < 0 for x in a[0]) or b == None:
         events.append(np.nan)
         corrected.append(np.nan)
@@ -24,7 +25,7 @@ for a, b in zip(truth_locs, labels):
         imu.append(np.linalg.norm(a[0] - np.array(b[2])))
         of.append(np.linalg.norm(a[0] - np.array(b[3])))
 
-fig = plt.figure(figsize=(12, 5))
+fig = plt.figure(figsize=(8, 4))
 seconds = [float(x)/32.9 for x in range(len(labels))]
 plt.plot(seconds, corrected, "r-", label="Corrected", lw=2)
 plt.plot(seconds, imu, "b:", label="IMU")
@@ -35,13 +36,13 @@ plt.plot(seconds, of, "g--", label="Optical Flow")
 #        print "plot vertical line"
 #        plt.axvline(x = i, c="r", ls="--")
 
-plt.xlabel("Time (s)", fontsize=22)
-plt.ylabel("Error (pixel)", fontsize=22)
-plt.tick_params(axis='both', which='major', labelsize=20)
+plt.xlabel("Time (s)", fontsize=24)
+plt.ylabel("Error (pixel)", fontsize=24)
+plt.tick_params(axis='both', which='major', labelsize=24)
 plt.grid()
 plt.legend(loc="upper right", bbox_to_anchor=(0.8, 1))
 #plt.xlim(xmax=65)
 #plt.ylim(ymax=180)
 plt.savefig("eval_of.pdf", bbox_inches='tight')
 plt.tight_layout()
-#plt.show()
+plt.show()

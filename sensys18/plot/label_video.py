@@ -85,8 +85,10 @@ class Labeler(object):
             if len(results) == 0:
                 label = None
             else:
+                items = results[0].data.split()
                 # 04/07/2018: add a dummy event charactor because new sensys18 result format doesn't have event encoded
-                items = ['n'] + results[0].data.split()
+                if '_' in items[0]:
+                    items = ['n'] + items
                 event = items[0]
                 label = [event]
                 for item in items[1:]:

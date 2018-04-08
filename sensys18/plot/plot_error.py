@@ -9,6 +9,7 @@ truth_locs = np.array(read_data("." + file_hash + ".truth_locs"))
 labels = read_data("." + file_hash + ".labels")
 
 data = []
+print(labels)
 for a, b in zip(truth_locs, labels):
     if any(x < 0 for x in a[0]) or any(x < 0 for x in b[1]):
         data.append(np.nan)
@@ -17,7 +18,7 @@ for a, b in zip(truth_locs, labels):
 events = tuple(x[0] for x in labels)
 
 print events
-fig = plt.figure(figsize=(12, 5))
+fig = plt.figure(figsize=(8, 4))
 plt.plot(data, ".-")
 
 for i in range(len(events)):
@@ -25,8 +26,8 @@ for i in range(len(events)):
         print "plot vertical line"
         plt.axvline(x = i+1)
 
-plt.xlabel("Frame Number", fontsize=22)
-plt.ylabel("Error (pixel)", fontsize=22)
+plt.xlabel("Frame Number", fontsize=24)
+plt.ylabel("Error (pixel)", fontsize=24)
 plt.grid()
 plt.savefig("pixel_error.pdf", bbox_inches='tight')
 plt.tight_layout()
