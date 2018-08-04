@@ -36,9 +36,9 @@ To run a MARVEL server
 snaplink run [db_file...]
 ```
 
-Here is an example that runs it with all data in *~/data/buildsys16/*:
+Here is an example that runs it with all data in *~/data/sensys18/*:
 ```bash
-snaplink run `find ~/data/buildsys16/ -iname *.db`
+snaplink run `find ~/data/sensys18/ -iname *.db`
 ```
 
 
