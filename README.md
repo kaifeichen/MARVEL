@@ -51,20 +51,6 @@ Yes! There is an [Android client](https://github.com/SoftwareDefinedBuildings/MA
 There are also python clients for both BOSSWAVE and HTTP in the [test/](test) folder.
 
 
-## Citation
-You must cite the following paper if you use this code in any ways:
-
-```
-@inproceedings{chen2015intuitive,
-  title={Intuitive Appliance Identification using Image Matching in Smart Buildings},
-  author={Chen, Kaifei and Kolb, John and F{\"u}rst, Jonathan and Hong, Dezhi and Katz, Randy H},
-  booktitle={Proceedings of the 2nd ACM International Conference on Embedded Systems for Energy-Efficient Built Environments},
-  pages={103--104},
-  year={2015},
-  organization={ACM}
-}
-```
-
 ## License
 
 ```
