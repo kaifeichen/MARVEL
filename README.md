@@ -1,14 +1,14 @@
-# SnapLink : Visual Appliance Identification and Control in Smart Buildings
-[![Build Status](https://travis-ci.com/kaifeichen/SnapLink.svg?token=XjizLR77Z2rgJhyHZZ73&branch=master)](https://travis-ci.com/kaifeichen/SnapLink)
+# MARVEL : Mobile Augmented Reality with Viable Energy and Latency
+[![Build Status](https://travis-ci.com/kaifeichen/MARVEL.svg?token=XjizLR77Z2rgJhyHZZ73&branch=master)](https://travis-ci.com/kaifeichen/MARVEL)
 
-## What is SnapLink? 
-SnapLink is a system that allows you to interact with smart building appliances by taking pictures of them.
+## What is MARVEL? 
+MARVEL is a system that allows you to interact with smart building appliances by taking pictures of them.
 
 
-## How to Run SnapLink server?
+## How to Run MARVEL server?
 
 ### Server Environment
-The easiest way to run SnapLink server is using the prebuilt [docker image](https://hub.docker.com/r/kaifeichen/snaplink/). To get the docker image, run
+The easiest way to run MARVEL server is using the prebuilt [docker image](https://hub.docker.com/r/kaifeichen/snaplink/). To get the docker image, run
 ```bash
 docker pull kaifeichen/snaplink
 ```
@@ -16,9 +16,9 @@ docker pull kaifeichen/snaplink
 If you want to build your own environment, follow the [install script](script/install.sh).
 
 ### Compile
-Clone the SnapLink server repository
+Clone the MARVEL server repository
 ```bash
-git clone https://github.com/SoftwareDefinedBuildings/SnapLink
+git clone https://github.com/kaifeichen/MARVEL
 ```
 Use cmake and make to compile in the [build/](build) folder
 ```bash
@@ -31,7 +31,7 @@ make -j $(nproc)
 ### Run
 
 #### standalone
-To run a SnapLink server
+To run a MARVEL server
 ```bash
 snaplink run [db_file...]
 ```
@@ -46,8 +46,8 @@ snaplink run `find ~/data/buildsys16/ -iname *.db`
 
 SnapLink server has a GRPC front end.
 
-## Do you have SnapLink client?
-Yes! There is an [Android client](https://github.com/SoftwareDefinedBuildings/SnapLink_Android). 
+## Do you have MARVEL client?
+Yes! There is an [Android client](https://github.com/SoftwareDefinedBuildings/MARVEL_Android). 
 There are also python clients for both BOSSWAVE and HTTP in the [test/](test) folder.
 
 
